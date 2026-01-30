@@ -207,7 +207,7 @@
   name: makeshift shield
 # ADT-Tweak-Start
   parent: [ PaladinShield, BaseMinorContraband ]
-  id: MakeshiftShield
+  id: MakeshitShield
   description: A rundown looking shield, not good for much.
   components:
     - type: Sprite
