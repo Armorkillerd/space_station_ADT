@@ -543,9 +543,9 @@
   description: Might catch a bullet. Might.
   components:
   - type: Sprite
-    sprite: _Starlight/Clothing/OuterClothing/Armor/makeshift.rsi
+    sprite: ADT/Clothing/OuterClothing/Armor/makeshift.rsi
   - type: Clothing
-    sprite: _Starlight/Clothing/OuterClothing/Armor/makeshift.rsi
+    sprite: ADT/Clothing/OuterClothing/Armor/makeshift.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -569,9 +569,9 @@
   description: Interlocking metal plates ensure you're decently protected against stabs, but not much else.
   components:
   - type: Sprite
-    sprite: _Starlight/Clothing/OuterClothing/Armor/improvised.rsi
+    sprite: ADT/Clothing/OuterClothing/Armor/improvised.rsi
   - type: Clothing
-    sprite: _Starlight/Clothing/OuterClothing/Armor/improvised.rsi
+    sprite: ADT/Clothing/OuterClothing/Armor/improvised.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -592,9 +592,9 @@
   description: A product of high-quality tidesmithing, the additional leather padding and the swap for plasteel over steel ensures the armor is lightweight and effective.
   components:
   - type: Sprite
-    sprite: _Starlight/Clothing/OuterClothing/Armor/forged.rsi
+    sprite: ADT/Clothing/OuterClothing/Armor/forged.rsi
   - type: Clothing
-    sprite: _Starlight/Clothing/OuterClothing/Armor/forged.rsi
+    sprite: ADT/Clothing/OuterClothing/Armor/forged.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -612,9 +612,9 @@
   description: Be the paladin you want to be! Swing swords in maints at the terrified security officer! Battle MONSTERS that are totally not vent creatures! Get shot by lasers and die-! Wait what?
   components:
   - type: Sprite
-    sprite: _Starlight/Clothing/OuterClothing/Armor/paladin.rsi
+    sprite: ADT/Clothing/OuterClothing/Armor/paladin.rsi
   - type: Clothing
-    sprite: _Starlight/Clothing/OuterClothing/Armor/paladin.rsi
+    sprite: ADT/Clothing/OuterClothing/Armor/paladin.rsi
   - type: Armor
     modifiers:
       coefficients:

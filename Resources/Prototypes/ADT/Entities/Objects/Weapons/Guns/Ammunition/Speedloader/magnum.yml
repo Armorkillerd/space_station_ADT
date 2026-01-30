@@ -146,7 +146,7 @@
       ballistic-ammo: !type:Container
         ents: []
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_magnum_speed_loader.rsi
+    sprite: ADT/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_magnum_speed_loader.rsi
     layers:
       - state: base
         map: [ "enum.GunVisualLayers.Base" ]

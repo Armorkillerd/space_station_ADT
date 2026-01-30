@@ -92,14 +92,14 @@
   description: Held together with cloth and dreams, it rattles ominously with every shot.
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/SMGs/makeshift_smg.rsi
+    sprite: ADT/Objects/Weapons/Guns/SMGs/makeshift_smg.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/SMGs/makeshift_smg.rsi
+    sprite: ADT/Objects/Weapons/Guns/SMGs/makeshift_smg.rsi
   - type: Item
     size: Normal
   - type: Gun
@@ -166,14 +166,14 @@
   description: It's tightly held together by cloth, steel and determination.
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/SMGs/improvised_smg.rsi
+    sprite: ADT/Objects/Weapons/Guns/SMGs/improvised_smg.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/SMGs/makeshift_smg.rsi
+    sprite: ADT/Objects/Weapons/Guns/SMGs/makeshift_smg.rsi
   - type: Item
     size: Large
   - type: Wieldable
@@ -219,14 +219,14 @@
   description: The best a tider could get, steel and plasteel welded together for a pretty decent SMG, though the heavy bolt on it does slow the shooting down.
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/SMGs/forged_smg.rsi
+    sprite: ADT/Objects/Weapons/Guns/SMGs/forged_smg.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/SMGs/forged_smg.rsi
+    sprite: ADT/Objects/Weapons/Guns/SMGs/forged_smg.rsi
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus

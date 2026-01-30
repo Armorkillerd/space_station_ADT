@@ -74,7 +74,7 @@
   description: Decently made double-barrel shotgun, reinforced with mixed steel and plasteel plates to keep it together. Not as accurate as a real gun.
   components:
   - type: Item
-    sprite: _Starlight/Objects/Weapons/Guns/Shotguns/forged_shotgun_inhands_64x.rsi
+    sprite: ADT/Objects/Weapons/Guns/Shotguns/forged_shotgun_inhands_64x.rsi
     size: Normal
     shape:
     - 0,0,4,0
@@ -82,9 +82,9 @@
     spread: 15
     fireRate: 3
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Shotguns/forged_shotgun.rsi
+    sprite: ADT/Objects/Weapons/Guns/Shotguns/forged_shotgun.rsi
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/Shotguns/forged_shotgun.rsi
+    sprite: ADT/Objects/Weapons/Guns/Shotguns/forged_shotgun.rsi
   - type: GunRequiresWield
   - type: BallisticAmmoProvider
     capacity: 2
@@ -97,13 +97,13 @@
   description: A small hand-cannon that fires .50 shotgun shells. Has no cloth to hold it together, so it has a high chance of falling apart with every shot.
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Shotguns/makeshift_shotgun.rsi
+    sprite: ADT/Objects/Weapons/Guns/Shotguns/makeshift_shotgun.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
   - type: Item
     size: Small
-    sprite: _Starlight/Objects/Weapons/Guns/Shotguns/makeshift_shotgun.rsi
+    sprite: ADT/Objects/Weapons/Guns/Shotguns/makeshift_shotgun.rsi
   - type: Construction
     graph: MakeshiftShotgunGraph
     node: shotgun

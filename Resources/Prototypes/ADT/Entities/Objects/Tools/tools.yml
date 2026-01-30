@@ -127,10 +127,10 @@
     sound:
       path: /Audio/Items/crowbar_drop.ogg
   - type: Sprite
-    sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+    sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
     state: wrench
   - type: Item
-    sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+    sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
   - type: Prying
     enabled: false
     speedModifier: 0.25
@@ -150,13 +150,13 @@
     entries:
       - behavior: Prying
         sprite:
-          sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+          sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
           state: wrench
         useSound:
           path: /Audio/Items/crowbar.ogg
       - behavior: Anchoring
         sprite:
-          sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+          sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
           state: wrenchflipped
         useSound:
           path: /Audio/Items/ratchet.ogg
@@ -181,24 +181,24 @@
         Blunt: 9
         Slash: 1
   - type: Sprite
-    sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+    sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
     state: screwdriver
   - type: MultipleTool
     statusShowBehavior: true
     entries:
       - behavior: Prying
         sprite:
-          sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+          sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
           state: screwdriver
         useSound:
           path: /Audio/Items/crowbar.ogg
       - behavior: Screwing
         sprite:
-          sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+          sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
           state: screwdriverflipped
       - behavior: Anchoring
         sprite:
-          sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+          sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
           state: screwdriverflipped
         useSound:
           path: /Audio/Items/ratchet.ogg
@@ -224,30 +224,30 @@
         Blunt: 9
         Slash: 2
   - type: Sprite
-    sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+    sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
     state: wirecutter
   - type: MultipleTool
     statusShowBehavior: true
     entries:
       - behavior: Prying
         sprite:
-          sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+          sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
           state: wirecutter
         useSound:
           path: /Audio/Items/crowbar.ogg
       - behavior: Screwing
         sprite:
-          sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+          sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
           state: wirecutterflipped
       - behavior: Anchoring
         sprite:
-          sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+          sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
           state: wirecutterflipped
         useSound:
           path: /Audio/Items/ratchet.ogg
       - behavior: Cutting
         sprite:
-          sprite: _Starlight/Objects/Tools/makeshift_omnitool.rsi
+          sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
           state: wirecutterside
         useSound:
           path: /Audio/Items/wirecutter.ogg
@@ -268,10 +268,10 @@
     sound:
       path: /Audio/Items/screwdriver_drop.ogg
   - type: Sprite
-    sprite: _Starlight/Objects/Tools/improvised_screwdriver.rsi
+    sprite: ADT/Objects/Tools/improvised_screwdriver.rsi
     state: screwdriver
   - type: Item
-    sprite: _Starlight/Objects/Tools/improvised_screwdriver.rsi
+    sprite: ADT/Objects/Tools/improvised_screwdriver.rsi
     storedRotation: -90
   - type: MeleeWeapon
     wideAnimationRotation: -90
@@ -305,7 +305,7 @@
     - PlantSampleTaker
     - ImprovisedWirecutter
   - type: Sprite
-    sprite: _Starlight/Objects/Tools/improvised_wirecutters.rsi
+    sprite: ADT/Objects/Tools/improvised_wirecutters.rsi
     state: cutters
   - type: MeleeWeapon
     wideAnimationRotation: -90
@@ -316,7 +316,7 @@
       path: "/Audio/Items/wirecutter.ogg"
     attackRate: 2
   - type: Item
-    sprite: _Starlight/Objects/Tools/improvised_wirecutters.rsi
+    sprite: ADT/Objects/Tools/improvised_wirecutters.rsi
     storedRotation: -90
   - type: ToolTileCompatible
   - type: Tool
@@ -339,12 +339,12 @@
     tags:
     - ImprovisedWrench
   - type: Sprite
-    sprite: _Starlight/Objects/Tools/improvised_wrench.rsi
+    sprite: ADT/Objects/Tools/improvised_wrench.rsi
     state: icon
   - type: Item
-    sprite: _Starlight/Objects/Tools/improvised_wrench.rsi
+    sprite: ADT/Objects/Tools/improvised_wrench.rsi
     storedSprite:
-      sprite: _Starlight/Objects/Tools/improvised_wrench.rsi
+      sprite: ADT/Objects/Tools/improvised_wrench.rsi
       state: storage
   - type: MeleeWeapon
     wideAnimationRotation: 135
@@ -371,15 +371,15 @@
     sound:
       path: /Audio/Items/multitool_drop.ogg
   - type: Sprite
-    sprite: _Starlight/Objects/Tools/improvised_multitool.rsi
+    sprite: ADT/Objects/Tools/improvised_multitool.rsi
     layers:
     - state: icon
     - state: green-unlit
       shader: unshaded
   - type: Item
-    sprite: _Starlight/Objects/Tools/improvised_multitool.rsi
+    sprite: ADT/Objects/Tools/improvised_multitool.rsi
   - type: Clothing
-    sprite: _Starlight/Objects/Tools/improvised_multitool.rsi
+    sprite: ADT/Objects/Tools/improvised_multitool.rsi
     quickEquip: false
     slots:
     - Belt
@@ -413,7 +413,7 @@
     sound:
       path: /Audio/Items/crowbar_drop.ogg
   - type: Sprite
-    sprite: _Starlight/Objects/Tools/improvised_omnitool.rsi
+    sprite: ADT/Objects/Tools/improvised_omnitool.rsi
     layers:
     - state: icon
     - state: welder_flame
@@ -441,7 +441,7 @@
           True: { visible: true }
           False: { visible: false }
   - type: Item
-    sprite: _Starlight/Objects/Tools/improvised_omnitool.rsi
+    sprite: ADT/Objects/Tools/improvised_omnitool.rsi
     size: Normal
 #  - type: ItemSwitch
 #    state: Prying
@@ -449,7 +449,7 @@
 #      prying: !type:ItemSwitchState
 #        verb: Prying
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/improvised_omnitool.rsi
+#          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
 #          state: icon
 #        components:
 #        - type: ToolTileCompatible
@@ -476,7 +476,7 @@
 #      screwing: !type:ItemSwitchState
 #        verb: Screwing
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/improvised_omnitool.rsi
+#          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
 #          state: icon
 #        components:
 #        - type: Tool
@@ -500,7 +500,7 @@
 #      cutting: !type:ItemSwitchState
 #        verb: Cutting
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/improvised_omnitool.rsi
+#          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
 #          state: icon
 #        components:
 #        - type: ToolTileCompatible
@@ -525,7 +525,7 @@
 #      anchoring: !type:ItemSwitchState
 #        verb: Anchoring
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/improvised_omnitool.rsi
+#          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
 #          state: icon
 #        components:
 #        - type: Tool
@@ -549,7 +549,7 @@
 #      pulsing: !type:ItemSwitchState
 #        verb: Pulsing
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/improvised_omnitool.rsi
+#          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
 #          state: icon
 #        components:
 #        - type: Tool
@@ -582,7 +582,7 @@
 #      welding: !type:ItemSwitchState
 #        verb: Welding
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/improvised_omnitool.rsi
+#          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
 #          state: icon
 #        components:
 #        - type: ItemToggle
@@ -668,7 +668,7 @@
     sound:
       path: /Audio/Items/crowbar_drop.ogg
   - type: Sprite
-    sprite: _Starlight/Objects/Tools/forged_omnitool.rsi
+    sprite: ADT/Objects/Tools/forged_omnitool.rsi
     layers:
     - state: icon
     - state: welder_flame
@@ -696,7 +696,7 @@
           True: { visible: true }
           False: { visible: false }
   - type: Item
-    sprite: _Starlight/Objects/Tools/forged_omnitool.rsi
+    sprite: ADT/Objects/Tools/forged_omnitool.rsi
     size: Normal
 #  - type: ItemSwitch
 #    state: Prying
@@ -704,7 +704,7 @@
 #      prying: !type:ItemSwitchState
 #        verb: Prying
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/forged_omnitool.rsi
+#          sprite: ADT/Objects/Tools/forged_omnitool.rsi
 #          state: crowbar
 #        components:
 #        - type: ToolTileCompatible
@@ -729,7 +729,7 @@
 #      screwing: !type:ItemSwitchState
 #        verb: Screwing
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/forged_omnitool.rsi
+#          sprite: ADT/Objects/Tools/forged_omnitool.rsi
 #          state: screwdriver
 #        components:
 #        - type: Tool
@@ -751,7 +751,7 @@
 #      cutting: !type:ItemSwitchState
 #        verb: Cutting
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/forged_omnitool.rsi
+#          sprite: ADT/Objects/Tools/forged_omnitool.rsi
 #          state: cutters
 #        components:
 #        - type: ToolTileCompatible
@@ -774,7 +774,7 @@
 #      anchoring: !type:ItemSwitchState
 #        verb: Anchoring
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/forged_omnitool.rsi
+#          sprite: ADT/Objects/Tools/forged_omnitool.rsi
 #          state: wrench
 #        components:
 #        - type: Tool
@@ -796,7 +796,7 @@
 #      pulsing: !type:ItemSwitchState
 #        verb: Pulsing
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/forged_omnitool.rsi
+#          sprite: ADT/Objects/Tools/forged_omnitool.rsi
 #          state: multi
 #        components:
 #        - type: Tool
@@ -828,7 +828,7 @@
 #      welding: !type:ItemSwitchState
 #        verb: Welding
 #        sprite:
-#          sprite: _Starlight/Objects/Tools/forged_omnitool.rsi
+#          sprite: ADT/Objects/Tools/forged_omnitool.rsi
 #          state: welder
 #        components:
 #        - type: ItemToggle

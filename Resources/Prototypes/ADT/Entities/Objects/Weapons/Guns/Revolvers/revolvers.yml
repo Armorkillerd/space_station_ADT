@@ -96,9 +96,9 @@
   description: Little more than a hand-cannon with a high chance of blowing up in your face.
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Revolvers/makeshift_revolver.rsi
+    sprite: ADT/Objects/Weapons/Guns/Revolvers/makeshift_revolver.rsi
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/Revolvers/makeshift_revolver.rsi
+    sprite: ADT/Objects/Weapons/Guns/Revolvers/makeshift_revolver.rsi
   - type: RevolverAmmoProvider
     whitelist:
       tags:
@@ -137,9 +137,9 @@
   description: A revolver that has two barrels and no cylinder. Can you really call this a revolver?
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Revolvers/improvised_revolver.rsi
+    sprite: ADT/Objects/Weapons/Guns/Revolvers/improvised_revolver.rsi
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/Revolvers/improvised_revolver.rsi
+    sprite: ADT/Objects/Weapons/Guns/Revolvers/improvised_revolver.rsi
   - type: RevolverAmmoProvider
     capacity: 2
     chambers: [ null, null]
@@ -170,9 +170,9 @@
   description: The best Tider engineering can offer, a revolver with the ability to hold 4 bullets!
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Revolvers/forged_revolver.rsi
+    sprite: ADT/Objects/Weapons/Guns/Revolvers/forged_revolver.rsi
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/Revolvers/forged_revolver.rsi
+    sprite: ADT/Objects/Weapons/Guns/Revolvers/forged_revolver.rsi
   - type: RevolverAmmoProvider
     capacity: 4
     chambers: [ null, null, null, null]

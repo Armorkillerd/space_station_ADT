@@ -98,9 +98,9 @@
   description: It'll blow a hole in the guy you point this at, if it doesn't snap your wrist first.
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Snipers/makeshift_rifle.rsi
+    sprite: ADT/Objects/Weapons/Guns/Snipers/makeshift_rifle.rsi
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/Snipers/makeshift_rifle.rsi
+    sprite: ADT/Objects/Weapons/Guns/Snipers/makeshift_rifle.rsi
   - type: Item
     size: Normal # Small, but can't fit in your pocket.
   - type: Gun
@@ -146,9 +146,9 @@
   description: Can ALMOST reliably hit a target!
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Snipers/improvised_rifle.rsi
+    sprite: ADT/Objects/Weapons/Guns/Snipers/improvised_rifle.rsi
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/Snipers/improvised_rifle.rsi
+    sprite: ADT/Objects/Weapons/Guns/Snipers/improvised_rifle.rsi
   - type: Item
     size: Large
   - type: Wieldable
@@ -195,9 +195,9 @@
   description: The best a tider can achive, reliable fire-rate and accuracy with a satisfying lever-action system. What more can you ask for? Is fitted to be able to chamber both .35 / .45
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Snipers/forged_rifle.rsi
+    sprite: ADT/Objects/Weapons/Guns/Snipers/forged_rifle.rsi
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/Snipers/forged_rifle.rsi
+    sprite: ADT/Objects/Weapons/Guns/Snipers/forged_rifle.rsi
   - type: Item
     size: Huge
   - type: Wieldable

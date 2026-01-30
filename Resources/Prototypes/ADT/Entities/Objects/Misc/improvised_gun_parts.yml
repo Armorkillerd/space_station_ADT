@@ -9,7 +9,7 @@
     shape:
     - 0,0,4,0
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Shotguns/forged_shotgun.rsi
+    sprite: ADT/Objects/Weapons/Guns/Shotguns/forged_shotgun.rsi
     state: ishotgunstep2
   - type: ToolRefinable
     refineResult:
@@ -30,7 +30,7 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Pistols/forged_pistol.rsi
+    sprite: ADT/Objects/Weapons/Guns/Pistols/forged_pistol.rsi
     state: unfinished
   - type: ToolRefinable
     refineResult:
@@ -51,7 +51,7 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Revolvers/forged_revolver.rsi
+    sprite: ADT/Objects/Weapons/Guns/Revolvers/forged_revolver.rsi
     state: unfinished
   - type: ToolRefinable
     refineResult:
@@ -72,7 +72,7 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/SMGs/forged_smg.rsi
+    sprite: ADT/Objects/Weapons/Guns/SMGs/forged_smg.rsi
     state: unfinished
   - type: ToolRefinable
     refineResult:
@@ -93,7 +93,7 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Snipers/forged_rifle.rsi
+    sprite: ADT/Objects/Weapons/Guns/Snipers/forged_rifle.rsi
     state: unfinished
   - type: ToolRefinable
     refineResult:
@@ -116,7 +116,7 @@
     shape:
     - 0,0,4,0
   - type: Sprite
-    sprite: _Starlight/Objects/Misc/modular_barrel.rsi
+    sprite: ADT/Objects/Misc/modular_barrel.rsi
     state: icon
   - type: Tag
     tags:

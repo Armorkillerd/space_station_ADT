@@ -5,13 +5,13 @@
   description: A shield for a true paladin! Good at deflecting hits with swords and absorbing the impact from bats, but not much else.
   components:
     - type: Sprite
-      sprite: _Starlight/Objects/Weapons/Melee/paladin_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/paladin_shield.rsi
       state: base
     - type: Item
-      sprite: _Starlight/Objects/Weapons/Melee/paladin_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/paladin_shield.rsi
       size: Ginormous
     - type: Clothing
-      sprite: _Starlight/Objects/Weapons/Melee/paladin_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/paladin_shield.rsi
       quickEquip: false
       slots:
       - Back
@@ -75,12 +75,12 @@
   description: You're up against the wall and I! AM! THE! FUCKING! WALL!
   components:
     - type: Sprite
-      sprite: _Starlight/Objects/Weapons/Melee/paladin_greatshield.rsi
+      sprite: ADT/Objects/Weapons/Melee/paladin_greatshield.rsi
       state: base
     - type: Item
-      sprite: _Starlight/Objects/Weapons/Melee/paladin_greatshield.rsi
+      sprite: ADT/Objects/Weapons/Melee/paladin_greatshield.rsi
     - type: Clothing
-      sprite: _Starlight/Objects/Weapons/Melee/paladin_greatshield.rsi
+      sprite: ADT/Objects/Weapons/Melee/paladin_greatshield.rsi
     - type: Blocking
       passiveBlockModifier:
         coefficients:
@@ -141,12 +141,12 @@
   description: Made from the best plasteel the tidersmiths could offer. Decent all-arounder, however being made out of solid metal makes it get hot real fast.
   components:
     - type: Sprite
-      sprite: _Starlight/Objects/Weapons/Melee/forged_buckler_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/forged_buckler_shield.rsi
       state: base
     - type: Item
-      sprite: _Starlight/Objects/Weapons/Melee/forged_buckler_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/forged_buckler_shield.rsi
     - type: Clothing
-      sprite: _Starlight/Objects/Weapons/Melee/forged_buckler_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/forged_buckler_shield.rsi
     - type: Blocking
       passiveBlockModifier:
         coefficients:
@@ -199,12 +199,12 @@
   description: Tall and menacing. A bit on the heavy side, however.
   components:
     - type: Sprite
-      sprite: _Starlight/Objects/Weapons/Melee/forged_tower_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/forged_tower_shield.rsi
       state: base
     - type: Item
-      sprite: _Starlight/Objects/Weapons/Melee/forged_tower_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/forged_tower_shield.rsi
     - type: Clothing
-      sprite: _Starlight/Objects/Weapons/Melee/forged_tower_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/forged_tower_shield.rsi
     - type: MeleeWeapon
       attackRate: 0.75
       damage:
@@ -252,12 +252,12 @@
   description: Steel welded together in a interlocking pattern to hold up better to various kinds of blows. Don't expect it to do well in a gunfight, however.
   components:
     - type: Sprite
-      sprite: _Starlight/Objects/Weapons/Melee/improvised_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/improvised_shield.rsi
       state: base
     - type: Item
-      sprite: _Starlight/Objects/Weapons/Melee/improvised_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/improvised_shield.rsi
     - type: Clothing
-      sprite: _Starlight/Objects/Weapons/Melee/improvised_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/improvised_shield.rsi
     - type: Blocking
       passiveBlockModifier:
         coefficients:

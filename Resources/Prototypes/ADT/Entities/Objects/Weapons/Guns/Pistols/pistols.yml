@@ -109,14 +109,14 @@
   description: Little more than a space eoka. Very unreliable.
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Pistols/makeshift_pistol_crafted.rsi
+    sprite: ADT/Objects/Weapons/Guns/Pistols/makeshift_pistol_crafted.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/Pistols/makeshift_pistol_crafted.rsi
+    sprite: ADT/Objects/Weapons/Guns/Pistols/makeshift_pistol_crafted.rsi
   - type: Gun
     fireRate: 5 #Each bullet is manually loaded, no reason to impose a firerate limit.
     availableModes:
@@ -158,17 +158,17 @@
 
 - type: entity
   name: improvised pistol
-  parent: [BaseWeaponSniper, BaseMinorContraband]
+  parent: [BaseWeaponPistol, BaseMinorContraband]
   id: WeaponPistolImprovised
   description: A cobbled together pistol with an internal magazine. More reliable, but still liable to blow up in your face.
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Pistols/improvised_pistol.rsi
+    sprite: ADT/Objects/Weapons/Guns/Pistols/improvised_pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/Pistols/improvised_pistol.rsi
+    sprite: ADT/Objects/Weapons/Guns/Pistols/improvised_pistol.rsi
   - type: Gun
     fireRate: 3
     availableModes:
@@ -227,14 +227,14 @@
   description: A reliable magazine-fed pistol made by the best tider blacksmiths.
   components:
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Pistols/forged_pistol.rsi
+    sprite: ADT/Objects/Weapons/Guns/Pistols/forged_pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Starlight/Objects/Weapons/Guns/Pistols/forged_pistol.rsi
+    sprite: ADT/Objects/Weapons/Guns/Pistols/forged_pistol.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 3

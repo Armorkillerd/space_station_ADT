@@ -209,9 +209,9 @@
         Piercing: 0.97
         Heat: 0.98
   - type: Sprite
-    sprite: _Starlight/Clothing/Head/Helmets/makeshift.rsi
+    sprite: ADT/Clothing/Head/Helmets/makeshift.rsi
   - type: Clothing
-    sprite: _Starlight/Clothing/Head/Helmets/makeshift.rsi
+    sprite: ADT/Clothing/Head/Helmets/makeshift.rsi
   - type: Construction
     graph: ClothingHeadHelmetMakeshiftGraph
     node: helmet
@@ -230,9 +230,9 @@
         Piercing: 0.95
         Heat: 0.96
   - type: Sprite
-    sprite: _Starlight/Clothing/Head/Helmets/improvised.rsi
+    sprite: ADT/Clothing/Head/Helmets/improvised.rsi
   - type: Clothing
-    sprite: _Starlight/Clothing/Head/Helmets/improvised.rsi
+    sprite: ADT/Clothing/Head/Helmets/improvised.rsi
 
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseMinorContraband]
@@ -248,9 +248,9 @@
         Piercing: 0.92
         Heat: 0.94
   - type: Sprite
-    sprite: _Starlight/Clothing/Head/Helmets/forged.rsi
+    sprite: ADT/Clothing/Head/Helmets/forged.rsi
   - type: Clothing
-    sprite: _Starlight/Clothing/Head/Helmets/forged.rsi
+    sprite: ADT/Clothing/Head/Helmets/forged.rsi
 
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseMajorContraband]
@@ -266,7 +266,7 @@
         Piercing: 0.90
         Heat: 0.92
   - type: Sprite
-    sprite: _Starlight/Clothing/Head/Helmets/paladin.rsi
+    sprite: ADT/Clothing/Head/Helmets/paladin.rsi
   - type: Clothing
-    sprite: _Starlight/Clothing/Head/Helmets/paladin.rsi
+    sprite: ADT/Clothing/Head/Helmets/paladin.rsi
 # End

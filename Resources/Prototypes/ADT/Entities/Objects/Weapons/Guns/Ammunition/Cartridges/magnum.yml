@@ -120,7 +120,7 @@
   - type: CartridgeAmmo
     hitscan: BulletMagnumTraceImprovised
   - type: Sprite
-    sprite: _Starlight/Objects/Weapons/Guns/Ammunition/Casings/improvised_casing.rsi
+    sprite: ADT/Objects/Weapons/Guns/Ammunition/Casings/improvised_casing.rsi
     layers:
       - state: base
         map: [ "enum.AmmoVisualLayers.Base" ]
