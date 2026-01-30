@@ -10,3 +10,5 @@ ent-ADTCartridgeMagnumLesserUranium = патрон (.357 магнум урано
     .desc = { ent-ADTCartridgeMagnumLesser.desc }
 ent-ADTCartridgeMagnumsilver = патрон (.357 магнум серебрянный)
     .desc = Не так эффективно как патроны благословленные богом, но тоже пойдут
+ent-ADTCartridgeMagnumHoly = патрон (.357 магнум святой)
+    .desc = "Люби ближнего своего, как самого себя."

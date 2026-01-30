@@ -2619,7 +2619,7 @@
     toggleFlashlightSound: /Audio/Effects/eye_close.ogg
   - type: Item
     size: Small
-    sprite: ADT/Objects/Misc/contemplator_tome.rsi  
+    sprite: ADT/Objects/Misc/contemplator_tome.rsi
   - type: Wieldable
     useDelayOnWield: false
   - type: Clothing
@@ -2639,8 +2639,8 @@
     interfaces:
       enum.PaperUiKey.Key:
         type: PaperBoundUserInterface
-  
-  
+
+
 - type: entity
   parent: MobWatcherPride
   id: ADTMobWatcherBible

@@ -481,3 +481,42 @@
   - type: EmpOnCollide
     energyConsumption: 20
     disableDuration: 2
+
+- type: entity
+  id: BulletMagnumTraceImprovised
+  parent: BaseBullet
+  damage:
+    types:
+      Piercing: 15
+      Blunt: 15
+  staminaDamage: 5
+  bullet:
+    sprite:
+      sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+      state: practice
+
+- type: entity
+  id: BulletPistolTraceImprovised
+  parent: BaseBullet
+  damage:
+    types:
+      Piercing: 7
+      Blunt: 7
+  staminaDamage: 3
+  bullet:
+    sprite:
+      sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+      state: practice
+
+- type: entity
+  id: BulletLightRifleTraceImprovised
+  parent: BaseBullet
+  damage:
+    types:
+      Piercing: 7
+      Blunt: 7
+  staminaDamage: 3
+  bullet:
+    sprite:
+      sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+      state: practice
