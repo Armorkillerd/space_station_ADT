@@ -11,7 +11,7 @@
         - CartridgePistol
         - CartridgePistolImprovised
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/Ammunition/Magazine/SMGs/improvised_smg_magazine.rsi
+    sprite: /Textures/ADT/Objects/Weapons/Guns/Ammunition/Magazine/SMG/improvised_smg_magazine.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
