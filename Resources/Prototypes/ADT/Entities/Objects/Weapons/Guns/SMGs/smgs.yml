@@ -173,7 +173,7 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: ADT/Objects/Weapons/Guns/SMGs/makeshift_smg.rsi
+    sprite: ADT/Objects/Weapons/Guns/SMGs/improvised_smg.rsi
   - type: Item
     size: Large
   - type: Wieldable

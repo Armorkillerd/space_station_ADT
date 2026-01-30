@@ -485,38 +485,47 @@
 - type: entity
   id: BulletMagnumTraceImprovised
   parent: BaseBullet
-  damage:
-    types:
-      Piercing: 15
-      Blunt: 15
-  staminaDamage: 5
-  bullet:
-    sprite:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
-      state: practice
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 15
+        Blunt: 15
+    bullet:
+      sprite:
+        sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+        state: practice
+  - type: StaminaDamageOnCollide
+    damage: 5
 
 - type: entity
   id: BulletPistolTraceImprovised
   parent: BaseBullet
-  damage:
-    types:
-      Piercing: 7
-      Blunt: 7
-  staminaDamage: 3
-  bullet:
-    sprite:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
-      state: practice
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 7
+        Blunt: 7
+    bullet:
+      sprite:
+        sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+        state: practice
+  - type: StaminaDamageOnCollide
+    damage: 5
 
 - type: entity
   id: BulletLightRifleTraceImprovised
   parent: BaseBullet
-  damage:
-    types:
-      Piercing: 7
-      Blunt: 7
-  staminaDamage: 3
-  bullet:
-    sprite:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
-      state: practice
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 7
+        Blunt: 7
+    bullet:
+      sprite:
+        sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+        state: practice
+  - type: StaminaDamageOnCollide
+    damage: 5

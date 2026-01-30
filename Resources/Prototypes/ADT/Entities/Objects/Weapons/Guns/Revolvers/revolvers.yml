@@ -179,5 +179,8 @@
     ammoSlots: [ null, null, null, null]
   - type: WeaponDismantleOnShoot
     dismantleChance: 0
+  - type: Construction
+    graph: ForgedRevolverGraph
+    node: shotgun
 
 # End

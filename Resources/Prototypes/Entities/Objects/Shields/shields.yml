@@ -207,16 +207,18 @@
   name: makeshift shield
 # ADT-Tweak-Start
   parent: [ PaladinShield, BaseMinorContraband ]
-  id: MakeshitShield
+  id: MakeshiftShield
   description: A rundown looking shield, not good for much.
   components:
     - type: Sprite
       sprite: ADT/Objects/Weapons/Melee/makeshift_shield.rsi
       state: base
-    - type: Item
-      sprite: ADT/Objects/Weapons/Melee/makeshift_shield.rsi
     - type: Clothing
-      sprite: ADT/Objects/Weapons/Melee/makeshift_shield.rsi
+      sprite: ADT/Objects/Weapons/Melee/shields/metal.rsi
+      quickEquip: false
+      slots:
+      - back
+      - suitStorage
     - type: Blocking
       passiveBlockModifier:
         coefficients:
@@ -265,14 +267,6 @@
                 SheetSteel:
                   min: 1
                   max: 2
-#ADT tweak start
-    - type: Clothing
-      sprite: ADT/Objects/Weapons/Melee/shields/metal.rsi
-      quickEquip: false
-      slots:
-      - back
-      - suitStorage
-#ADT tweak end
 
 - type: entity
   name: web shield
