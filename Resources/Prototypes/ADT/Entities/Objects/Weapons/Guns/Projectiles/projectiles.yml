@@ -483,7 +483,7 @@
     disableDuration: 2
 
 - type: entity
-  id: BulletMagnumTraceImprovised
+  id: BulletMagnumImprovised
   parent: BaseBullet
   components:
   - type: Projectile
@@ -499,7 +499,7 @@
     damage: 5
 
 - type: entity
-  id: BulletPistolTraceImprovised
+  id: BulletPistolImprovised
   parent: BaseBullet
   components:
   - type: Projectile
@@ -515,14 +515,14 @@
     damage: 5
 
 - type: entity
-  id: BulletLightRifleTraceImprovised
+  id: BulletLightRifleImprovised
   parent: BaseBullet
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 7
-        Blunt: 7
+        Piercing: 8
+        Blunt: 9
     bullet:
       sprite:
         sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi

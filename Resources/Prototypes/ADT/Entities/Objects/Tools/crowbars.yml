@@ -1,6 +1,6 @@
 - type: entity
   name: makeshift crowbar
-  parent: BaseItem
+  parent: BaseCrowbar
   id: CrowbarMakeshift
   description: Barely better than nothing. Could be made into something greater with a welder, though..
   components:

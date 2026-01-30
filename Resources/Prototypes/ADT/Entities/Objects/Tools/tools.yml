@@ -117,6 +117,7 @@
     sprite: ADT/Objects/Tools/supermatter_scalpel.rsi
     storedRotation: 90
   - type : SupermatterImmune
+
 - type: entity
   name: makeshift crowbar-wrench
   parent: BaseItem

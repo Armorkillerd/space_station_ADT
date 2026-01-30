@@ -118,7 +118,7 @@
   parent: [BaseCartridgePistol, BaseMinorContraband]
   components:
   - type: CartridgeAmmo
-    hitscan: BulletMagnumTraceImprovised
+    proto: BulletMagnumImprovised
   - type: Sprite
     sprite: ADT/Objects/Weapons/Guns/Ammunition/Casings/improvised_casing.rsi
     layers:

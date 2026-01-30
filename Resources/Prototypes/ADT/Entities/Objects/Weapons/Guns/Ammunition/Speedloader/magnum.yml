@@ -146,19 +146,10 @@
       ballistic-ammo: !type:Container
         ents: []
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/improvised_magnum_speed_loader.rsi
+    sprite: ADT/Objects/Weapons/Guns/Ammunition/Speedloaders/Magnum/improvised_magnum_speed_loader.rsi
     layers:
       - state: base
         map: [ "enum.GunVisualLayers.Base" ]
-      - state: base-4
-        map: [ "enum.GunVisualLayers.Mag" ]
-      - state: base-tip-4
-        map: [ "enum.GunVisualLayers.Tip" ]
-        color: "#717171"
-  - type: MagazineVisuals
-    magState: base
-    steps: 5
-    zeroVisible: false
   - type: Appearance
   - type: Construction
     graph: ImprovisedMagnumSpeedLoaderGraph
