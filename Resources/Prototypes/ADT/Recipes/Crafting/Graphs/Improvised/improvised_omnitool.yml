@@ -28,14 +28,10 @@
         name: crafting-menu-name-ISC
       - tag: ImprovisedCrowbar
         icon:
-          sprite: ADT/Objects/Tools/improvised_screwdriver.rsi
+          sprite: ADT/Objects/Tools/improvised_crowbar.rsi
           state: icon
         name: crafting-menu-name-IC
       - tag: EmergencyWelder
-        icon:
-          sprite: Objects/Tools/welder_mini.rsi
-          state: icon
-        name: crafting-menu-name-EW
       - material: Steel
         amount: 5
         doAfter: 35

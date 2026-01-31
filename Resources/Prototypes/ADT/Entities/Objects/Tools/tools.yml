@@ -95,6 +95,7 @@
     lastCharges: 100
   - type: AutoRecharge
     rechargeDuration: 2
+
 - type: entity
   name: scalpel
   id: ADTSupermatterScalpel
@@ -118,6 +119,66 @@
     storedRotation: 90
   - type : SupermatterImmune
 
+# Самоделки Start
+
+- type: entity
+  name: makeshift crowbar
+  parent: BaseCrowbar
+  id: CrowbarMakeshift
+  description: Barely better than nothing. Could be made into something greater with a welder, though..
+  components:
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/crowbar_drop.ogg
+  - type: Sprite
+    sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
+    state: base
+  - type: Item
+    sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 8
+  - type: Tool
+    qualities:
+    - Prying
+  - type: ToolTileCompatible
+    delay: 4
+  - type: Prying
+    speedModifier: 0.25
+  - type: ToolRefinable
+    refineResult:
+    - id: CrowbarWrenchMakeshift
+  - type: Construction
+    graph: MakeshiftCrowbarGraph
+    node: tool
+  - type: Tag
+    tags:
+      - Crowbar
+
+- type: entity
+  name: improvised crowbar
+  parent: CrowbarMakeshift
+  id: CrowbarImprovised
+  description: A few pieces of metal welded together and sharpened at the edges. Not the best tool, but it'll do.
+  components:
+  - type: Sprite
+    sprite: ADT/Objects/Tools/improvised_crowbar.rsi
+    state: icon
+  - type: Item
+    sprite: ADT/Objects/Tools/improvised_crowbar.rsi
+    storedSprite:
+      sprite: ADT/Objects/Tools/improvised_crowbar.rsi
+      state: storage
+  - type: ToolTileCompatible
+    delay: 2
+  - type: Prying
+    speedModifier: 0.50
+  - type: Tag
+    tags:
+      - ImprovisedCrowbar
+
 - type: entity
   name: makeshift crowbar-wrench
   parent: BaseItem
@@ -134,13 +195,13 @@
     sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
   - type: Prying
     enabled: false
-    speedModifier: 0.25
-  - type: ToolTileCompatible
-    delay: 4
   - type: Tool
     qualities:
-      - Screwing
-    speedModifier: 0.25
+    - Prying
+    - Anchoring
+    speedModifier: 0.7
+  - type: ToolTileCompatible
+    speedModifier: 0.7
   - type: MeleeWeapon
     wideAnimationRotation: -135
     damage:
@@ -184,6 +245,12 @@
   - type: Sprite
     sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
     state: screwdriver
+  - type: Tool
+    qualities:
+    - Prying
+    - Anchoring
+    - Screwing
+    speedModifier: 0.6
   - type: MultipleTool
     statusShowBehavior: true
     entries:
@@ -227,6 +294,13 @@
   - type: Sprite
     sprite: ADT/Objects/Tools/makeshift_omnitool.rsi
     state: wirecutter
+  - type: Tool
+    qualities:
+    - Prying
+    - Anchoring
+    - Screwing
+    - Cutting
+    speedModifier: 0.6
   - type: MultipleTool
     statusShowBehavior: true
     entries:
@@ -287,7 +361,7 @@
     - Screwing
     useSound:
       collection: Screwdriver
-    speedModifier: 0.50
+    speedModifier: 0.80
   - type: Tag
     tags:
     - ImprovisedScrewdriver
@@ -325,7 +399,7 @@
     - Cutting
     useSound:
       path: /Audio/Items/wirecutter.ogg
-    speedModifier: 0.50
+    speedModifier: 0.80
 
 - type: entity
   name: improvised wrench
@@ -360,7 +434,7 @@
     - Anchoring
     useSound:
       path: /Audio/Items/ratchet.ogg
-    speedModifier: 0.50
+    speedModifier: 0.80
 
 - type: entity
   name: improvised multitool
@@ -410,79 +484,64 @@
   id: OmnitoolImprovised
   description: An unholy abomination only second to the great Throngler itself.
   components:
+  - type: Sprite
+    sprite: ADT/Objects/Tools/improvised_omnitool.rsi # Заменить этой хуйне спрайты. Ибо эти я в рот ебал править.
+    layers:
+    - state: icon
   - type: EmitSoundOnLand
     sound:
       path: /Audio/Items/crowbar_drop.ogg
-  - type: Sprite
-    sprite: ADT/Objects/Tools/improvised_omnitool.rsi
-    layers:
-    - state: icon
-    - state: welder_flame
-      visible: false
-      shader: unshaded
-      map: ["enum.ToggleableVisuals.Layer"]
-  - type: RefillableSolution
-    solution: Welder
   - type: Tool
     useSound:
-      collection: Welder
-    qualities: Welding
-  - type: SolutionContainerManager
-    solutions:
-      Welder:
-        reagents:
-        - ReagentId: WeldingFuel
-          Quantity: 50
-        maxVol: 50
-  - type: Welder
-  - type: GenericVisualizer
-    visuals:
-      enum.ToggleableVisuals.Enabled:
-        enum.ToggleableVisuals.Layer:
-          True: { visible: true }
-          False: { visible: false }
+    collection: Welder
+    qualities:
+    - Prying
+    - Anchoring
+    - Screwing
+    - Cutting
+    - Pulsing
+    speedModifier: 0.7
   - type: Item
-    sprite: ADT/Objects/Tools/improvised_omnitool.rsi
     size: Normal
   - type: MultipleTool
     statusShowBehavior: true
     entries:
       - behavior: Screwing
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
-          state: omnitool-screwing
+          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
+          state: icon
         useSound:
           path: /Audio/Items/drill_use.ogg
         changeSound:
           path: /Audio/Items/change_drill.ogg
       - behavior: Prying
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
-          state: omnitool-prying
+          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
+          state: icon
         useSound:
           path: /Audio/Items/jaws_pry.ogg
         changeSound:
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
-          state: omnitool-wrenching
+          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
+          state: icon
         useSound:
           path: /Audio/Items/ratchet.ogg
         changeSound:
           path: /Audio/Items/change_drill.ogg
       - behavior: Cutting
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
-          state: omnitool-snipping
+          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
+          state: icon
         useSound:
           path: /Audio/Items/jaws_cut.ogg
         changeSound:
           path: /Audio/Items/change_drill.ogg
       - behavior: Pulsing
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
-          state: omnitool-pulsing
+          sprite: ADT/Objects/Tools/improvised_omnitool.rsi
+          state: icon
         changeSound:
           path: /Audio/Items/change_drill.ogg
   - type: Tag
@@ -511,26 +570,21 @@
       visible: false
       shader: unshaded
       map: ["enum.ToggleableVisuals.Layer"]
-  - type: RefillableSolution
-    solution: Welder
+  - type: Clothing
+    quickEquip: false
+    sprite: ADT/Objects/Tools/forged_omnitool_64x.rsi
+    slots:
+    - belt
   - type: Tool
+    qualities:
+    - Prying
+    - Anchoring
+    - Screwing
+    - Cutting
+    - Pulsing
+    speedModifier: 0.9
     useSound:
       collection: Welder
-    qualities: Welding
-  - type: SolutionContainerManager
-    solutions:
-      Welder:
-        reagents:
-        - ReagentId: WeldingFuel
-          Quantity: 50
-        maxVol: 100
-  - type: Welder
-  - type: GenericVisualizer
-    visuals:
-      enum.ToggleableVisuals.Enabled:
-        enum.ToggleableVisuals.Layer:
-          True: { visible: true }
-          False: { visible: false }
   - type: Item
     sprite: ADT/Objects/Tools/forged_omnitool.rsi
     size: Normal
@@ -539,40 +593,40 @@
     entries:
       - behavior: Screwing
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
-          state: omnitool-screwing
+          sprite: ADT/Objects/Tools/forged_omnitool.rsi
+          state: screwing
         useSound:
           path: /Audio/Items/drill_use.ogg
         changeSound:
           path: /Audio/Items/change_drill.ogg
       - behavior: Prying
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
-          state: omnitool-prying
+          sprite: ADT/Objects/Tools/forged_omnitool.rsi
+          state: prying
         useSound:
           path: /Audio/Items/jaws_pry.ogg
         changeSound:
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
-          state: omnitool-wrenching
+          sprite: ADT/Objects/Tools/forged_omnitool.rsi
+          state: wrenching
         useSound:
           path: /Audio/Items/ratchet.ogg
         changeSound:
           path: /Audio/Items/change_drill.ogg
       - behavior: Cutting
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
-          state: omnitool-snipping
+          sprite: ADT/Objects/Tools/forged_omnitool.rsi
+          state: cutters
         useSound:
           path: /Audio/Items/jaws_cut.ogg
         changeSound:
           path: /Audio/Items/change_drill.ogg
       - behavior: Pulsing
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
-          state: omnitool-pulsing
+          sprite: ADT/Objects/Tools/forged_omnitool.rsi
+          state: pulsing
         changeSound:
           path: /Audio/Items/change_drill.ogg
   - type: Tag
@@ -583,3 +637,4 @@
       - PlantSampleTaker
       - Wirecutter
       - Screwdriver
+# End

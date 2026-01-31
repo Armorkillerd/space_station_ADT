@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "license": "CC-BY-NC-SA-3.0",
   "copyright": "Made by Killer Tamashi (Discord)",
   "size": {
@@ -8,40 +8,28 @@
   },
   "states": [
     {
-      "name": "wrench"
+      "name": "wrenching"
     },
     {
       "name": "cutters"
     },
     {
-      "name": "crowbar"
+      "name": "prying"
     },
     {
       "name": "icon"
     },
     {
-      "name": "multi"
+      "name": "pulsing"
     },
     {
-      "name": "screwdriver"
+      "name": "screwing"
     },
     {
       "name": "welder"
     },
     {
       "name": "unfinished"
-    },
-    {
-      "name": "inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "inhand-right",
-      "directions": 4
-    },
-    {
-      "name": "equipped-BELT",
-      "directions": 4
     },
     {
       "name": "welder_flame",

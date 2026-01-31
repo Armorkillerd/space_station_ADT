@@ -31,11 +31,6 @@
           sprite: Objects/Tools/crowbar.rsi
           state: storage
         name: crafting-menu-name-CRO
-      - tag: EmergencyWelder
-        icon:
-          sprite: Objects/Tools/welder_mini.rsi
-          state: icon
-        name: crafting-menu-name-EW
       - tag: PowerCellSmall
         icon:
           sprite: Objects/Power/power_cells.rsi
