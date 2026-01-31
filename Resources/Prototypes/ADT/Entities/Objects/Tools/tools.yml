@@ -404,46 +404,46 @@
       - ImprovisedMultitool
       - DoorElectronicsConfigurator
 
-- type: entity
-  name: improvised omnitool
-  parent: BaseItem
-  id: OmnitoolImprovised
-  description: An unholy abomination only second to the great Throngler itself.
-  components:
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Items/crowbar_drop.ogg
-  - type: Sprite
-    sprite: ADT/Objects/Tools/improvised_omnitool.rsi
-    layers:
-    - state: icon
-    - state: welder_flame
-      visible: false
-      shader: unshaded
-      map: ["enum.ToggleableVisuals.Layer"]
-  - type: RefillableSolution
-    solution: Welder
-  - type: Tool
-    useSound:
-      collection: Welder
-    qualities: Welding
-  - type: SolutionContainerManager
-    solutions:
-      Welder:
-        reagents:
-        - ReagentId: WeldingFuel
-          Quantity: 50
-        maxVol: 50
-  - type: Welder
-  - type: GenericVisualizer
-    visuals:
-      enum.ToggleableVisuals.Enabled:
-        enum.ToggleableVisuals.Layer:
-          True: { visible: true }
-          False: { visible: false }
-  - type: Item
-    sprite: ADT/Objects/Tools/improvised_omnitool.rsi
-    size: Normal
+#- type: entity
+#  name: improvised omnitool
+#  parent: BaseItem
+#  id: OmnitoolImprovised
+#  description: An unholy abomination only second to the great Throngler itself.
+#  components:
+#  - type: EmitSoundOnLand
+#    sound:
+#      path: /Audio/Items/crowbar_drop.ogg
+#  - type: Sprite
+#    sprite: ADT/Objects/Tools/improvised_omnitool.rsi
+#    layers:
+#    - state: icon
+#    - state: welder_flame
+#      visible: false
+#      shader: unshaded
+#      map: ["enum.ToggleableVisuals.Layer"]
+#  - type: RefillableSolution
+#    solution: Welder
+#  - type: Tool
+#    useSound:
+#      collection: Welder
+#    qualities: Welding
+#  - type: SolutionContainerManager
+#    solutions:
+#      Welder:
+#        reagents:
+#        - ReagentId: WeldingFuel
+#          Quantity: 50
+#        maxVol: 50
+#  - type: Welder
+#  - type: GenericVisualizer
+#    visuals:
+#      enum.ToggleableVisuals.Enabled:
+#        enum.ToggleableVisuals.Layer:
+#          True: { visible: true }
+#          False: { visible: false }
+#  - type: Item
+#    sprite: ADT/Objects/Tools/improvised_omnitool.rsi
+#    size: Normal
 #  - type: ItemSwitch
 #    state: Prying
 #    states:
@@ -659,46 +659,46 @@
       - Wirecutter
       - Screwdriver
 
-- type: entity
-  name: forged omnitool
-  parent: BaseItem
-  id: OmnitoolForged
-  description: Some absolute psychopath decided to saw off the heads of all tools they could find and smash it together into a makeshift drill. Looks nice, considering it's origins.
-  components:
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Items/crowbar_drop.ogg
-  - type: Sprite
-    sprite: ADT/Objects/Tools/forged_omnitool.rsi
-    layers:
-    - state: icon
-    - state: welder_flame
-      visible: false
-      shader: unshaded
-      map: ["enum.ToggleableVisuals.Layer"]
-  - type: RefillableSolution
-    solution: Welder
-  - type: Tool
-    useSound:
-      collection: Welder
-    qualities: Welding
-  - type: SolutionContainerManager
-    solutions:
-      Welder:
-        reagents:
-        - ReagentId: WeldingFuel
-          Quantity: 50
-        maxVol: 100
-  - type: Welder
-  - type: GenericVisualizer
-    visuals:
-      enum.ToggleableVisuals.Enabled:
-        enum.ToggleableVisuals.Layer:
-          True: { visible: true }
-          False: { visible: false }
-  - type: Item
-    sprite: ADT/Objects/Tools/forged_omnitool.rsi
-    size: Normal
+#- type: entity
+#  name: forged omnitool
+#  parent: BaseItem
+#  id: OmnitoolForged
+#  description: Some absolute psychopath decided to saw off the heads of all tools they could find and smash it together into a makeshift drill. Looks nice, considering it's origins.
+#  components:
+#  - type: EmitSoundOnLand
+#    sound:
+#      path: /Audio/Items/crowbar_drop.ogg
+#  - type: Sprite
+#    sprite: ADT/Objects/Tools/forged_omnitool.rsi
+#    layers:
+#    - state: icon
+#    - state: welder_flame
+#      visible: false
+#      shader: unshaded
+#      map: ["enum.ToggleableVisuals.Layer"]
+#  - type: RefillableSolution
+#    solution: Welder
+#  - type: Tool
+#    useSound:
+#      collection: Welder
+#    qualities: Welding
+#  - type: SolutionContainerManager
+#    solutions:
+#      Welder:
+#        reagents:
+#        - ReagentId: WeldingFuel
+#          Quantity: 50
+#        maxVol: 100
+#  - type: Welder
+#  - type: GenericVisualizer
+#    visuals:
+#      enum.ToggleableVisuals.Enabled:
+#        enum.ToggleableVisuals.Layer:
+#          True: { visible: true }
+#          False: { visible: false }
+#  - type: Item
+#    sprite: ADT/Objects/Tools/forged_omnitool.rsi
+#    size: Normal
 #  - type: ItemSwitch
 #    state: Prying
 #    states:

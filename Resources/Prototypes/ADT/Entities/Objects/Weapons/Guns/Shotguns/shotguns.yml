@@ -79,7 +79,6 @@
     shape:
     - 0,0,4,0
   - type: Gun
-    spread: 15
     fireRate: 3
   - type: Sprite
     sprite: ADT/Objects/Weapons/Guns/Shotguns/forged_shotgun.rsi
