@@ -454,7 +454,7 @@
   - type: Item
     sprite: ADT/Objects/Tools/improvised_multitool.rsi
   - type: Clothing
-    sprite: ADT/Objects/Tools/improvised_multitool.rsi
+#    sprite: ADT/Objects/Tools/improvised_multitool.rsi
     quickEquip: false
     slots:
     - Belt
@@ -571,8 +571,8 @@
       shader: unshaded
       map: ["enum.ToggleableVisuals.Layer"]
   - type: Clothing
+ #   sprite: ADT/Objects/Tools/forged_omnitool.rsi
     quickEquip: false
-    sprite: ADT/Objects/Tools/forged_omnitool_64x.rsi
     slots:
     - belt
   - type: Tool
