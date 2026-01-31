@@ -566,10 +566,6 @@
     sprite: ADT/Objects/Tools/forged_omnitool.rsi
     layers:
     - state: icon
-    - state: welder_flame
-      visible: false
-      shader: unshaded
-      map: ["enum.ToggleableVisuals.Layer"]
   - type: Clothing
  #   sprite: ADT/Objects/Tools/forged_omnitool.rsi
     quickEquip: false

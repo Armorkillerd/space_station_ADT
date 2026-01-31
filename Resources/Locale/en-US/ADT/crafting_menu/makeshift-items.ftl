@@ -108,8 +108,6 @@ crafting-menu-text-ISW = The budget option for aspiring maints knights.
 crafting-menu-name-FSW = forged sword
 crafting-menu-text-FSW = Now THAT'S a weapon! Best paired with equally shiny armor, needs welding.
 
-construction-graph-tag-welder = welder
-
 crafting-menu-name-DSW = dawnbreaker
 crafting-menu-text-DSW = Burn away the unholdy heretics with this weapon of justice!
 
@@ -172,3 +170,5 @@ crafting-menu-name-EXOXY = extended-capacity emergency oxygen tank
 crafting-menu-name-CGREN = green crayon
 
 crafting-menu-name-CYELO = yellow crayon
+
+construction-graph-tag-welder = welder
