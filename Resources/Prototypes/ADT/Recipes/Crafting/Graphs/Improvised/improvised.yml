@@ -78,13 +78,13 @@
   category: construction-category-weapons
   objectType: Item
 
-- type: construction
-  id: HandmadeCrowbar
-  graph: ADTHandmadeCrowbarGraph
-  startNode: start
-  targetNode: HandmadeCrowbar
-  category: construction-category-tools
-  objectType: Item
+#- type: construction
+#  id: HandmadeCrowbar
+#  graph: ADTHandmadeCrowbarGraph
+#  startNode: start
+#  targetNode: HandmadeCrowbar
+#  category: construction-category-tools
+#  objectType: Item
 
 - type: construction
   id: ADTBoneKnife
