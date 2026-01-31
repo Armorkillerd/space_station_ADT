@@ -12,12 +12,7 @@
         amount: 4
         doAfter: 10
       - material: Cloth
-        amount: 5
+        amount: 2
         doAfter: 5
-      - tag: HiltWood
-        icon:
-          sprite: ADT/Objects/Misc/wooden_hilt.rsi
-          state: icon
-        name: crafting-menu-name-WH
   - node: sword
     entity: SwordMakeshift

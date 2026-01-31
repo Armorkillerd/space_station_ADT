@@ -22,11 +22,11 @@
         doAfter: 5
       - material: MetalRod
         amount: 2
-      - tag: Igniter
+      - tag: Welder
         icon:
-          sprite: Objects/Devices/igniter.rsi
+          sprite: /Textures/Objects/Tools/welder.rsi
           state: icon
-        name: construction-graph-tag-igniter
+        name: construction-graph-tag-welder
         doAfter: 10
   - node: sword
     entity: SwordFlaming
