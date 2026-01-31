@@ -9,6 +9,27 @@
   "states": [
     {
       "name": "icon"
+    },
+    {
+      "name": "welder_flame",
+      "delays": [
+        [
+          0.2,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pulsing"
+    },
+    {
+      "name": "yellow-unlit"
+    },
+    {
+      "name": "red-unlit"
+    },
+    {
+      "name": "unfinished"
     }
   ]
 }

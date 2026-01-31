@@ -26,19 +26,7 @@
       "name": "screwing"
     },
     {
-      "name": "welder"
-    },
-    {
       "name": "unfinished"
-    },
-    {
-      "name": "welder_flame",
-      "delays": [
-        [
-          0.3,
-          0.2
-        ]
-      ]
     }
   ]
 }

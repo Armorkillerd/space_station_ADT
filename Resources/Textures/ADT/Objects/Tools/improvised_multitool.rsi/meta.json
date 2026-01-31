@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "license": "CC-BY-SA-3.0",
   "copyright": "Made by Killer Tamashi (Discord)",
   "size": {
@@ -18,30 +18,6 @@
     },
     {
       "name": "red-unlit"
-    },
-    {
-      "name": "inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "inhand-right",
-      "directions": 4
-    },
-	  {
-      "name": "green-inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "green-inhand-right",
-      "directions": 4
-    },
-	  {
-      "name": "yellow-inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "yellow-inhand-right",
-      "directions": 4
     },
     {
       "name": "unfinished"
