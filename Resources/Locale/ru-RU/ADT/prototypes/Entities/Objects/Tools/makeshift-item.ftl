@@ -6,10 +6,10 @@ ent-UnfinishedClothingHeadHelmetImprovised = незаконченный шлем
 ent-UnfinishedImprovisedShield = незаконченный импровизированный щит
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedClothingOuterArmorImprovised = незаконченная импровизированный броня бригантина
+ent-UnfinishedClothingOuterArmorImprovised = незаконченная импровизированная броня бригантина
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedImprovisedScrewdriver = незаконченная импровизированный отвёртка
+ent-UnfinishedImprovisedScrewdriver = незаконченная импровизированная отвёртка
     .desc = Требуется сварка, чтобы скрепить её воедино.
 
 ent-UnfinishedImprovisedCrowbar = незаконнченая импровизированная монтировка
@@ -52,13 +52,13 @@ ent-UnfinishedImprovisedWirecutter = незаконченные импровиз
     .desc = Требуется сварка, чтобы скрепить их.
 
 ent-UnfinishedImprovisedMultitool = незаконченный импровизированный мультитул
-    .desc = Нужна сварка и немного терпения, чтобы собрать все это воедино.
+    .desc = Нужна сварка и немного терпения, чтобы собрать всё это воедино.
 
 ent-UnfinishedImprovisedOmnitool = незаконченный импровизированный омнитул
-    .desc = что ты делаешь? нужно проварить...
+    .desc = Что ты делаешь? нужно проварить...
 
 ent-UnfinishedForgedOmnitool = незаконченный кованый омнитул
-    .desc = Вы либо сумасшедший, либо психопат. Скорее всего, и то. нужно проварить.
+    .desc = Вы либо сумасшедший, либо психопат. Скорее всего, и то. Нужно проварить.
 
 # Инструменты
 
