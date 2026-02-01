@@ -85,8 +85,6 @@
           Slash: 1
           Piercing: 1
           Heat: 1
-      soundHit:
-        path: /Audio/Weapons/smash.ogg
     - type: Damageable
       damageContainer: Shield
     - type: Destructible
