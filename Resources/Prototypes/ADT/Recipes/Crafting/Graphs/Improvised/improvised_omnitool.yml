@@ -31,7 +31,6 @@
           sprite: ADT/Objects/Tools/improvised_crowbar.rsi
           state: icon
         name: crafting-menu-name-IC
-      - tag: EmergencyWelder
       - material: Steel
         amount: 5
         doAfter: 35

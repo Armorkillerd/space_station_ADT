@@ -781,3 +781,63 @@
 
 - type: Tag
   id: ShellShotgunImprovised
+
+- type: Tag
+  id: CartridgePistolUranium
+
+- type: Tag
+  id: CartridgePistolIncendiary
+
+- type: Tag
+  id: CartridgePistolPractice
+
+- type: Tag
+  id: CartridgeMagnumIncendiary
+
+- type: Tag
+  id: CartridgeMagnumPractice
+
+- type: Tag
+  id: CartridgeMagnumAP
+
+- type: Tag
+  id: CartridgeMagnumUranium
+
+- type: Tag
+  id: CartridgeLightRifleUranium
+
+- type: Tag
+  id: CartridgeLightRifleIncendiary
+
+- type: Tag
+  id: CartridgeLightRiflePractice
+
+- type: Tag
+  id: ShellTranquilizer
+
+- type: Tag
+  id: ShellShotgunPractice
+
+- type: Tag
+  id: ShellShotgunIncendiary
+
+- type: Tag
+  id: ShellShotgunFlare
+
+- type: Tag
+  id: ShellShotgunSlug
+
+- type: Tag
+  id: ShellShotgunBeanbag
+
+- type: Tag
+  id: CartridgeRifleUranium
+
+- type: Tag
+  id: CartridgeRifleIncendiary
+
+- type: Tag
+  id: CartridgeRiflePractice
+
+- type: Tag
+  id: ShellShotgunUranium

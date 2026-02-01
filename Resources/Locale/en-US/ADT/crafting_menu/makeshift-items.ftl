@@ -170,5 +170,3 @@ crafting-menu-name-EXOXY = extended-capacity emergency oxygen tank
 crafting-menu-name-CGREN = green crayon
 
 crafting-menu-name-CYELO = yellow crayon
-
-construction-graph-tag-welder = welder

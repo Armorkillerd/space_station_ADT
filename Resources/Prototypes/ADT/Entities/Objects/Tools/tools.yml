@@ -484,7 +484,7 @@
   description: An unholy abomination only second to the great Throngler itself.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Tools/improvised_omnitool.rsi # Заменить этой хуйне спрайты. Ибо эти я в рот ебал править.
+    sprite: ADT/Objects/Tools/improvised_omnitool.rsi # TODO: Заменить спрайты и восстановить старые
     layers:
     - state: icon
   - type: EmitSoundOnLand
@@ -569,7 +569,7 @@
  #   sprite: ADT/Objects/Tools/forged_omnitool.rsi
     quickEquip: false
     slots:
-    - belt
+    - Belt
   - type: Tool
     qualities:
     - Prying

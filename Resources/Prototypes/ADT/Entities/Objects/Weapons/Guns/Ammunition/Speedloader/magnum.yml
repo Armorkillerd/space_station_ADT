@@ -127,7 +127,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumImprovised
-  name: "speed loader (.45 magnum)"
+  name: "speed loader (.357 magnum)"
   parent: [BaseItem, BaseMinorContraband]
   components:
   - type: Tag

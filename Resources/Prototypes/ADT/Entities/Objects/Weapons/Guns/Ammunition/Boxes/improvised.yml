@@ -10,12 +10,34 @@
       tags:
         - CartridgePistol
         - CartridgePistolImprovised
+        - CartridgePistolUranium
+        - CartridgePistolIncendiary
+        - CartridgePistolPractice
         - CartridgeMagnum
         - CartridgeMagnumImprovised
+        - CartridgeMagnumIncendiary
+        - CartridgeMagnumPractice
+        - CartridgeMagnumAP
+        - ADTCartridgeMagnumLesser
+        - CartridgeMagnumUranium
         - CartridgeLightRifle
         - CartridgeLightRifleImprovised
+        - CartridgeLightRiflePractice
+        - CartridgeLightRifleIncendiary
+        - CartridgeLightRifleUranium
         - ShellShotgun
+        - ShellShotgunBeanbag
+        - ShellShotgunSlug
+        - ShellShotgunFlare
+        - ShellShotgunIncendiary
+        - ShellShotgunPractice
+        - ShellTranquilizer
         - ShellShotgunImprovised
+        - ShellShotgunUranium
+        - CartridgeRifle
+        - CartridgeRiflePractice
+        - CartridgeRifleIncendiary
+        - CartridgeRifleUranium
     proto: null
     capacity: 40
   - type: Item

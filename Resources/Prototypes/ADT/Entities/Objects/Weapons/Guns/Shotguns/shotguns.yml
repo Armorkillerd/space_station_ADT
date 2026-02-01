@@ -86,6 +86,9 @@
     sprite: ADT/Objects/Weapons/Guns/Shotguns/forged_shotgun.rsi
   - type: GunRequiresWield
   - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - ShellShotgun
     capacity: 2
     proto: null
 
