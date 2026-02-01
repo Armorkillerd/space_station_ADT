@@ -39,7 +39,7 @@ ent-ClothingHeadHelmetMakeshift = самодельный стальной шле
 ent-ClothingHeadHelmetImprovised = импровизированный шлем барбют
     .desc = Соединенные стальные пластины обеспечивают неплохую защиту от ударов, но все равно это едва ли лучше, чем ничего.
 
-ent-ClothingHeadHelmetForged = кованный шлем армэ
+ent-ClothingHeadHelmetForged = кованый шлем армэ
     .desc = Высококачественный шлем армэ, изготовленный одними из лучших ковачей, наконец-то что то стоющее, чтобы носить его на голове.
 
 ent-ClothingHeadHelmetPaladin = паладинский шлем штеххелм

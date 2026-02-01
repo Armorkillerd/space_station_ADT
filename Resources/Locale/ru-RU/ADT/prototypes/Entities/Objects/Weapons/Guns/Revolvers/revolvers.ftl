@@ -12,5 +12,5 @@ ent-WeaponRevolverMakeshift = самодельный револьвер
 ent-WeaponRevolverImprovised = импровизированный револьвер
     .desc = Револьвер с двух местным барабаном. Кажется это бред...
 
-ent-WeaponRevolverForged = кованный револьвер
+ent-WeaponRevolverForged = кованый револьвер
     .desc = Лучшее, что может предложить компания Tider engineering - револьвер, вмещающий 4 патрона!

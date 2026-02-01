@@ -3,76 +3,76 @@
 ent-UnfinishedClothingHeadHelmetImprovised = незаконченный шлем барбют
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedImprovisedShield = незаконченный импровезированный щит
+ent-UnfinishedImprovisedShield = незаконченный импровизированный щит
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedClothingOuterArmorImprovised = незаконченная импровезированная броня бригантина
+ent-UnfinishedClothingOuterArmorImprovised = незаконченная импровизированный броня бригантина
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedImprovisedScrewdriver = незаконченная импровезированная отвёртка
+ent-UnfinishedImprovisedScrewdriver = незаконченная импровизированный отвёртка
     .desc = Требуется сварка, чтобы скрепить её воедино.
 
-ent-UnfinishedImprovisedCrowbar = незаконнченая импровезированная монтировка
+ent-UnfinishedImprovisedCrowbar = незаконнченая импровизированная монтировка
     .desc = Требуется сварка, чтобы скрепить её воедино.
 
-ent-UnfinishedImprovisedWrench = незаконченный импровезированный гаечный ключ
+ent-UnfinishedImprovisedWrench = незаконченный импровизированный гаечный ключ
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
 ent-UnfinishedClaymoreForged = незаконченный киторез
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedSwordForged = незаконченный кованный меч
+ent-UnfinishedSwordForged = незаконченный кованый меч
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedSniperForged = незаконнченая кованная рычажная винтовка
+ent-UnfinishedSniperForged = незаконченная кованная рычажная винтовка
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedPistolForged = незаконченный кованный пистолет
+ent-UnfinishedPistolForged = незаконченный кованый пистолет
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedSubMachineGunForged = незаконченный кованный пистолет пулемёт
+ent-UnfinishedSubMachineGunForged = незаконченный кованый пистолет пулемёт
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
 ent-UnfinishedForgedShotgun = незаконченный двухствольный дробовик
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedClothingHeadHelmetForged = незаконченный кованный шлем армэ
+ent-UnfinishedClothingHeadHelmetForged = незаконченный кованый шлем армэ
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedClothingOuterArmorForged = незаконченный кованный ламеллярный доспех
+ent-UnfinishedClothingOuterArmorForged = незаконченный кованый ламеллярный доспех
     .desc = Требуется сварка, чтобы скрепить его воедино
 
-ent-UnfinishedForgedShieldTower = незаконченный кованный башенный щит
+ent-UnfinishedForgedShieldTower = незаконченный кованый башенный щит
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedRevolverForged = незаконченный кованный револьвер
+ent-UnfinishedRevolverForged = незаконченный кованый револьвер
     .desc = Требуется сварка, чтобы скрепить его воедино.
 
-ent-UnfinishedImprovisedWirecutter = незаконченные импровезированные кусачки
+ent-UnfinishedImprovisedWirecutter = незаконченные импровизированные кусачки
     .desc = Требуется сварка, чтобы скрепить их.
 
-ent-UnfinishedImprovisedMultitool = незаконченный импровезированный мультитул
+ent-UnfinishedImprovisedMultitool = незаконченный импровизированный мультитул
     .desc = Нужна сварка и немного терпения, чтобы собрать все это воедино.
 
-ent-UnfinishedImprovisedOmnitool = незаконченный импровезированный омнитул
+ent-UnfinishedImprovisedOmnitool = незаконченный импровизированный омнитул
     .desc = что ты делаешь? нужно проварить...
 
-ent-UnfinishedForgedOmnitool = незаконченный кованный омнитул
+ent-UnfinishedForgedOmnitool = незаконченный кованый омнитул
     .desc = Вы либо сумасшедший, либо психопат. Скорее всего, и то. нужно проварить.
 
 # Инструменты
 
-ent-OmnitoolForged = кованный омнитул
+ent-OmnitoolForged = кованый омнитул
     .desc = Какой-то законченный психопат решил отпилить головки у всех инструментов, которые смог найти, и соорудить из них самодельную дрель. Выглядит неплохо, учитывая ее происхождение.
 
 ent-CrowbarMakeshift = самодельный лом
-    .desc = Это чудище было создано ценной одного ящика для инструментов, можно проварить чтобы сделать его по смешному лудше.
+    .desc = Это чудище было создано ценой одного ящика для инструментов, можно проварить чтобы сделать его по смешному лудше.
 
 ent-CrowbarWrenchMakeshift = самодельный лом - гаечный ключ
     .desc = Все ещё ужасен.
 
 ent-CrowbarWrenchScrewdriverMakeshift = самодельный лом - гаечный ключ - отвёртка
-    .desc = Я... Нужно остановится..
+    .desc = Я... Нужно остановиться..
 
 ent-OmnitoolMakeshift = самодельный омнитул
     .desc = Это издевательство...
@@ -80,17 +80,17 @@ ent-OmnitoolMakeshift = самодельный омнитул
 ent-MultitoolImprovised = импровезированный мультитул
     .desc = Иногда искриться и бьёт током, а в прочем не плох.
 
-ent-ScrewdriverImprovised = импровезированная отвёртка
+ent-ScrewdriverImprovised = импровизированная отвёртка
     .desc = Как бы оно не выглядело, главное что работает.
 
-ent-OmnitoolImprovised = импровезированный омнитул
+ent-OmnitoolImprovised = импровизированный омнитул
     .desc = Нечестивая мерзость, уступающая лишь самому великому Нагибатору.
 
-ent-WirecutterImprovised = импровезированные кусачки
+ent-WirecutterImprovised = импровизированные кусачки
     .desc = Заточенный металл достаточно острый, чтобы разрезать толстую проволоку.
 
-ent-WrenchImprovised = импровезированный гаечный ключ
+ent-WrenchImprovised = импровизированный гаечный ключ
     .desc = Сойдет.
 
-ent-CrowbarImprovised = импровезированная монтировка
+ent-CrowbarImprovised = импровизированная монтировка
     .desc = 5 Листов стали это все что мне нужно.
