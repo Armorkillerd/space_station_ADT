@@ -23,7 +23,7 @@ plant-holder-component-plant-unhealthy-adjective = нездоровым
 plant-holder-component-dead-plant-matter-message = Он заполнен [color=red]мёртвыми растениями[/color].
 plant-holder-component-weed-high-level-message = Он заполнен [color=green]сорняками[/color]!
 plant-holder-component-pest-high-level-message = Он заполнен [color=gray]маленькими червячками[/color]!
-plant-holder-component-water-level-message = Вода:     [color=cyan]{ $waterLevel }[/color].
+plant-holder-component-water-level-message = Вода: [color=cyan]{ $waterLevel }[/color].
 plant-holder-component-nutrient-level-message = Питательные вещества: [color=orange]{ $nutritionLevel }[/color].
 plant-holder-component-toxins-high-warning = Горит [color=red]предупреждение уровня токсичности[/color].
 plant-holder-component-light-improper-warning = Мигает [color=yellow]предупреждение о неподходящем уровне освещения[/color].
