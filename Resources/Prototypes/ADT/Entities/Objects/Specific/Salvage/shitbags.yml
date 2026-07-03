@@ -9,7 +9,6 @@
     sprite: Objects/Specific/Hydroponics/Equipment/plant_bag.rsi
     state: icon
   - type: Item
-
     inhandVisuals:
       left:
       - state: inhand-left
