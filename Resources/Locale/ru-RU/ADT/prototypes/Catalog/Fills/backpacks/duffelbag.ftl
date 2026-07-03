@@ -1,6 +1,5 @@
 ent-BrigmedicDuffelbagClothing = вещмешок бригмедика
     .desc = { ent-ClothingBackpackDuffelSecurity.desc }
-
 ent-ADTClothingBackpackDuffelSyndicateFilledAKMS = набор "АКМ"
     .desc = Музейный раритет - автомат пятивековой давности и четыре магазина к нему
 ent-ADTClothingBackpackDuffelSyndicateFilledBuldogAmmo = набор барабанов Бульдога
