@@ -16,8 +16,6 @@
     sound: /Audio/ADT/Effects/kega.ogg
   - type: Appearance
   - type: TimerTriggerVisuals
-    keysIn:
-    - timer
     primingSound:
       path: /Audio/Effects/box_deploy.ogg
 

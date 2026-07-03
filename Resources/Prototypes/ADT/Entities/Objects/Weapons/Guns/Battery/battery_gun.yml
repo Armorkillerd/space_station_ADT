@@ -271,8 +271,6 @@
         volume: -5
   - type: BatteryAmmoProvider
     proto: ADTBulletMic
-    capacity: 1
-    count: 1
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 4
     rechargeSound:

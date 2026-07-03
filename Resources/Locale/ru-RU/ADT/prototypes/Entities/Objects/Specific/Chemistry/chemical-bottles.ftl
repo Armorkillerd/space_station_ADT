@@ -9,43 +9,30 @@ ent-ADTGlassBottle = стеклянная бутылочка
 
 ent-ADTObjectsSpecificArithrazineChemistryBottle = бутылочка аритразина
     .desc = Маленькая бутылочка.
-
 ent-ADTObjectsSpecificBicaridineChemistryBottle = бутылочка бикаридина
     .desc = Маленькая бутылочка.
-
 ent-ADTObjectsSpecificDexalinPlusChemistryBottle = бутылочка дексалина плюс
     .desc = Маленькая бутылочка.
-
 ent-ADTObjectsSpecificDermalineChemistryBottle = бутылочка дермалина
     .desc = Маленькая бутылочка.
-
 ent-ADTObjectsSpecificDexalinChemistryBottle = бутылочка дексалина
     .desc = Маленькая бутылочка.
-
 ent-ADTObjectsSpecificLeporazineChemistryBottle = бутылочка лепоразина
     .desc = Маленькая бутылочка.
-
 ent-ADTSalineChemistryBottle = бутылочка физраствора
     .desc = Маленькая бутылочка.
-
 ent-ADTAmatoxinChemistryBottle = бутылочка аматоксина
     .desc = Маленькая бутылочка.
-
 ent-ADTLexorinChemistryBottle = бутылочка лексорина
     .desc = Маленькая бутылочка.
-
 ent-ADTLicoxideChemistryBottle = бутылочка ликоксида
     .desc = Маленькая бутылочка.
-
 ent-ADTLacerinolChemistryBottle = бутылочка лацеринола
     .desc = Маленькая бутылочка.
-
 ent-ADTBruizineChemistryBottle = бутылочка бруизина
     .desc = Маленькая бутылочка.
-
 ent-ADTPuncturaseChemistryBottle = бутылочка пунктураза
     .desc = Маленькая бутылочка.
-
 ent-ADTDyloveneChemistryBottle = бутылочка диловена
     .desc = Маленькая бутылочка.
 
@@ -72,7 +59,6 @@ ent-ADTOpiumBottle = бутылочка опиума
 
 ent-ADTObjectsSpecificFluorosurfactantChemistryBottle = бутылочка фторсурфактанта
     .desc = Бутылочка с перфторированнпй сульфоновой кислотой, образующей пену при смешивании с водой.
-
 
 ent-ADTStypticPowderChemistryBottle = бутылочка кровоостанавливающий пудры
     .desc = Бутылочка кровоостанавливающей пудры, она оказывает кровоостанавливающий эффект и медленно заживляет механические травмы.

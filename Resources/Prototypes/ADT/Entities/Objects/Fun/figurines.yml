@@ -20,7 +20,7 @@
     sprite: ADT/Objects/Fun/figurines.rsi
     state: brigmedic
   - type: SpeakOnTrigger
-    pack: Figurinesbrigmediс
+    pack: Figurinesbrigmedic
 
 - type: entity
   parent: BaseFigurine

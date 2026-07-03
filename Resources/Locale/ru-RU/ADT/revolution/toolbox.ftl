@@ -19,8 +19,7 @@ revolution-toolbox-category-technolover-name = Набор "Любителя те
 revolution-toolbox-category-technolover-description =
     Для люб1т3л3й х4к1нга, ИИ, боргов, 4 т4кж3 тролл1нг4.
     Включ43т в с3бя: ID-карта с доступом в кабинет научного
-    руководителя, мультитул, плата загрузки законов ИИ,
-    мониторинг экипажа.
+    руководителя, мультитул, плата загрузки законов ИИ, мониторинг экипажа.
 
 revolution-toolbox-category-gunsmith-name = Набор "Фанат стволов"
 

@@ -440,7 +440,7 @@
   color: "#c8a2c8"
   physicalDesc: reagent-physical-desc-powdery
   metabolisms:
-    Medicine:
+    Bloodstream:
       metabolismRate : 0.3
       effects:
       - !type:EvenHealthChange
@@ -467,7 +467,7 @@
   color: "#c8a2c8"
   physicalDesc: reagent-physical-desc-powdery
   metabolisms:
-    Medicine:
+    Bloodstream:
       metabolismRate : 0.3
       effects:
       - !type:HealthChange
