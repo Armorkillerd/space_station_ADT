@@ -38,6 +38,6 @@
     providedRecipes:
     - SignallerAdvanced
     - ChemicalPayload
-    - TimerTrigger
-    - SignalTrigger
-    - VoiceTrigger
+    - FlashPayload
+    - ExplosivePayload
+    - ADTС4Recipe

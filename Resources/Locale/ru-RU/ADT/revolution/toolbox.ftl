@@ -1,4 +1,4 @@
-revolution-toolbox-category-all-hands-master-name = Набор мастера на все руки
+revolution-toolbox-category-all-hands-master-name = Набор "Все сторонний"
 
 revolution-toolbox-category-all-hands-master-description =
     Набор для по-настоящему универсальных революционеров!
@@ -6,7 +6,7 @@ revolution-toolbox-category-all-hands-master-description =
     криптографического ключа, пистолет МК-58, 3 сварочные маски,
     4 инженерных пояса инструментов.
 
-revolution-toolbox-category-subversion-name = Набор юного химика
+revolution-toolbox-category-subversion-name = Набор "Юного террориста"
 
 revolution-toolbox-category-subversion-description =
     Набор, чтобы устроить настоящий хаос на станции!
@@ -14,15 +14,15 @@ revolution-toolbox-category-subversion-description =
     1 упакованый ХимМастер 4000, 1 полный раздатчик химикатов, 1 продвинутый передатчик сигналов,
     и 3 канистры угля.
 
-revolution-toolbox-category-technolover-name = Набор любителя технологий
+revolution-toolbox-category-technolover-name = Набор "Любителя технологий"
 
 revolution-toolbox-category-technolover-description =
     Для люб1т3л3й х4к1нга, ИИ, боргов, 4 т4кж3 тролл1нг4.
     Включ43т в с3бя: ID-карта с доступом в кабинет научного
-    руководителя, мультитул, плата загрузки законов ИИ
-    и мониторинг экипажа.
+    руководителя, мультитул, плата загрузки законов ИИ,
+    мониторинг экипажа.
 
-revolution-toolbox-category-gunsmith-name = Набор юного оружейника
+revolution-toolbox-category-gunsmith-name = Набор "Фанат стволов"
 
 revolution-toolbox-category-gunsmith-description =
     Выдайте вам и вашим товарищам по пистолету!
@@ -31,28 +31,28 @@ revolution-toolbox-category-gunsmith-description =
     2 лазерных целеуказателей, бензопила,
     1 Абордажная сабля, 2 топора, и 2 кувалды.
 
-revolution-toolbox-category-printing-name = Набор печатания
+revolution-toolbox-category-printing-name = Набор "Печатания"
 
 revolution-toolbox-category-printing-description =
     Вы что-то хотите? Напечатайте!
     Включает в себя: плата автолата, плата протолата,
     плата медифинского ТехФаба, плата ТехФаба патронов и чертёж тонфы.
 
-revolution-toolbox-category-cluwnerev-name = Набор Клувеня
+revolution-toolbox-category-cluwnerev-name = Набор "Клувеня"
 
 revolution-toolbox-category-cluwnerev-description =
     Вам смешно когда СБ падают на мыле? Этот набор для вас!
     Включает в себя: 6 кремовых пирогов, две канистры космосмазки,
     4 набора клоунов, 7 пар галош, 3 омега мыло и 6 масок клоуна службы безопастности.
 
-revolution-toolbox-category-disarm-name = Набор Разоружения
+revolution-toolbox-category-disarm-name = Набор "Разоружения"
 
 revolution-toolbox-category-disarm-description =
     Вас избивают сотрудники СБ дубинками, и вам это надоело? Этот набор для вас!
     Включает в себя: 6 скрытых бронежилетов, 3 бронежилета общего назначения, 2 коробки стимуляторов, 6 бол,
     3 дубинки-шокера, 3 мануала ПТСР и коробку стяжек.
 
-revolution-toolbox-category-medrev-name = Набор все для меда
+revolution-toolbox-category-medrev-name = Набор "Всё для меда"
 
 revolution-toolbox-category-medrev-description =
     Медицинское снаряжение для оказания помощи в полевых условиях.
@@ -60,7 +60,7 @@ revolution-toolbox-category-medrev-description =
     3 боевые аптечки, 1 продвинутую аптечку,
     3 стазисные кровати, 3 компактных дефибриллятора и 2 каталки.
 
-revolution-toolbox-category-fake-mindshieldrev-name = Набор "Усиленная вербовка"
+revolution-toolbox-category-fake-mindshieldrev-name = Набор "Вербовка по чёрному"
 
 revolution-toolbox-category-fake-mindshieldrev-description =
     Вам недостаточно завербованных из экипажа, а у Командования и

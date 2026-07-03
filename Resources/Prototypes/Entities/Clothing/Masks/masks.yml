@@ -549,6 +549,9 @@
     slots:
     - Snout
     - SnoutOverlay # ADT Tweak
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingMaskBase
@@ -566,6 +569,9 @@
     slots:
     - Snout
     - SnoutOverlay # ADT Tweak
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingMaskBase
@@ -583,6 +589,9 @@
     slots:
     - Snout
     - SnoutOverlay # ADT Tweak
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingMaskBase
@@ -600,6 +609,9 @@
     slots:
     - Snout
     - SnoutOverlay # ADT Tweak
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingMaskBase
@@ -617,6 +629,9 @@
     slots:
     - Snout
     - SnoutOverlay # ADT Tweak
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingMaskBase
@@ -634,6 +649,9 @@
     slots:
     - Snout
     - SnoutOverlay # ADT Tweak
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingMaskBase
@@ -660,6 +678,9 @@
     sprite: Clothing/Mask/neckgaiterred.rsi
   - type: Clothing
     sprite: Clothing/Mask/neckgaiterred.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingMaskClownBase
@@ -671,6 +692,9 @@
     sprite: Clothing/Mask/blushingclown.rsi
   - type: Clothing
     sprite: Clothing/Mask/blushingclown.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingMaskMime
@@ -735,6 +759,12 @@
     sprite: Clothing/Mask/italian_moustache.rsi
   - type: Item
     storedRotation: -90
+  - type: AddAccentClothing
+    accent: ReplacementAccent
+    replacement: italian
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingMaskBase

@@ -440,14 +440,14 @@
   color: "#c8a2c8"
   physicalDesc: reagent-physical-desc-powdery
   metabolisms:
-    Bloodstream:
-      metabolismRate : 0.75
+    Medicine:
+      metabolismRate : 0.3
       effects:
       - !type:EvenHealthChange
         damage:
-          Brute: -2.25
+          Brute: -0.825
       - !type:ModifyBleed
-        amount: -1 #почему кровоостанавливающая пудра не останавливала кровотечение?
+        amount: -0.3 #почему кровоостанавливающая пудра не останавливала кровотечение?
       - !type:PopupMessage
         conditions:
         - !type:TotalDamageCondition
@@ -456,6 +456,7 @@
         visualType: Small
         messages: [ "medicine-effect-usual" ]
         probability: 0.05
+
 #Сульфадиазин серебра
 - type: reagent
   id: ADTSilverSulfadiazine
@@ -466,12 +467,15 @@
   color: "#c8a2c8"
   physicalDesc: reagent-physical-desc-powdery
   metabolisms:
-    Bloodstream:
-      metabolismRate : 0.75
+    Medicine:
+      metabolismRate : 0.3
       effects:
-      - !type:EvenHealthChange
-        damage:
-          Burn: -3
+      - !type:HealthChange
+          damage:
+            types:
+              Shock: -0.925
+              Heat: -0.925
+              Cold: -0.925
       - !type:PopupMessage
         conditions:
         - !type:TotalDamageCondition
@@ -658,7 +662,7 @@
           - !type:ReagentCondition
             reagent: ADTSanallergium
             min: 10
- 
+
 - type: reagent
   id: ADTDiphalazidone
   name: reagent-name-diphalazidone

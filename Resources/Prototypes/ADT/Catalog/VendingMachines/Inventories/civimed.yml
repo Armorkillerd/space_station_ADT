@@ -8,6 +8,8 @@
     ADTPillTricordrazine: 20
     ADTPatchHealingMini: 15
     ADTPatchBurnMini: 15
+    ADTBloodPackTransfusionFull: 5
+    SyringeSaline: 10
   emaggedInventory:
     ADTBrutepackAdvanced1: 10
     ADTOintmentAdvanced1: 10
