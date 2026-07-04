@@ -95,18 +95,20 @@
     containers:
       storagebase: !type:AllSelector
         children:
-        - id: MedicatedSuture
-        - id: RegenerativeMesh
-      #  - id: Bloodpack
-      #    amount: 2
         # ADT Tweak start
         - id: BurnAutoInjector
         - id: BruteAutoInjector
         - id: RadAutoInjector
         - id: AntiPoisonMedipen
         - id: ADTBloodPackTransfusionFull # ADT Tweak: Blood IV
+        - id: ADTSalineChemistryBottle
           amount: 2
+        - id: ADTHemostasisAutoInjector
+        - id: Syringe
         # ADT Tweak End
+        - id: MedicatedSuture
+        - id: RegenerativeMesh
+        # - id: Bloodpack # ADT Tweak: Blood IV
 
 - type: entity
   id: MedkitCombatFilled
