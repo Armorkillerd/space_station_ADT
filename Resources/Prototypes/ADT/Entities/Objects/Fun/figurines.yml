@@ -20,11 +20,7 @@
     sprite: ADT/Objects/Fun/figurines.rsi
     state: brigmedic
   - type: SpeakOnTrigger
-<<<<<<< Updated upstream
     pack: Figurinesbrigmedic
-=======
-    pack: Figurinesbrigmediс
->>>>>>> Stashed changes
 
 - type: entity
   parent: BaseFigurine
