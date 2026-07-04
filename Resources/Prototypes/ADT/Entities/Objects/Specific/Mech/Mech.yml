@@ -118,7 +118,7 @@
     mechToPilotDamageMultiplier: 0.5
     pilotWhitelist:
       components:
-        - HumanoidAppearance
+        - HumanoidProfile
     equipmentWhitelist:
       tags:
       - ADTMechEquipmentGeneral
@@ -192,7 +192,7 @@
     mechToPilotDamageMultiplier: 0.25
     pilotWhitelist:
       components:
-        - HumanoidAppearance
+        - HumanoidProfile
     equipmentWhitelist:
       tags:
       - ADTMechEquipmentGeneral
@@ -808,7 +808,7 @@
     brokenState: marauder-broken
     pilotWhitelist:
       components:
-        - HumanoidAppearance
+        - HumanoidProfile
     maxEquipmentAmount: 5
     equipmentWhitelist:
       tags:
