@@ -34,16 +34,17 @@
   - type: EntityTableContainerFill
     containers:
       storagebase: !type:AllSelector
-      - id: Brutepack
-        amount: 2
-      - id: Ointment
-        amount: 1
-      - id: ADTBloodPackTransfusionFull # ADT tweak: Blood IV
-        amount: 1
-      - id: ADTSalineChemistryBottle
-        amount: 2
-      - id: Gauze
-      - id: EmergencyMedipen
+        children:
+        - id: Brutepack
+          amount: 2
+        - id: Ointment
+          amount: 1
+        - id: ADTBloodPackTransfusionFull # ADT tweak: Blood IV
+          amount: 1
+        - id: ADTSalineChemistryBottle
+          amount: 2
+        - id: Gauze
+        - id: EmergencyMedipen
 
 - type: entity
   id: ADTClothingBeltMedicalBagEMTFilled
@@ -53,14 +54,15 @@
   - type: EntityTableContainerFill
     containers:
       storagebase: !type:AllSelector
-      - id: Brutepack
-      - id: Ointment
-      - id: ADTBloodPackTransfusionFull # ADT tweak: Blood IV
-      - id: Gauze
-      - id: ADTSalineChemistryBottle
-        amount: 2
-      - id: EmergencyMedipen
-        amount: 3
+        children:
+        - id: Brutepack
+        - id: Ointment
+        - id: ADTBloodPackTransfusionFull # ADT tweak: Blood IV
+        - id: Gauze
+        - id: ADTSalineChemistryBottle
+          amount: 2
+        - id: EmergencyMedipen
+          amount: 3
 
 - type: entity
   id: ADTClothingBeltMilitaryWebbingCBURNFilled
