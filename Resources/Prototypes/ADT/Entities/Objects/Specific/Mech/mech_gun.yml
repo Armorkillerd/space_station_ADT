@@ -161,7 +161,7 @@
     availableModes:
     - FullAuto
     fireRate: 0.6
-    projectileSpeed : 20
+    projectileSpeed: 20
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: BatteryMechAmmoProvider
