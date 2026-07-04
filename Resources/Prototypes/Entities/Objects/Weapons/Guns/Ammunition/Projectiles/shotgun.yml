@@ -16,7 +16,7 @@
         # ADT-Tweak-Start
         Piercing: 15 # 40 -> 15
         Blunt: 25 # 0 -> 25
-        Structural: 40 # 0 -> 40
+        Structural: 25 # 0 -> 25
         # ADT-Tweak-End
 
 
