@@ -257,24 +257,22 @@
   - ExplosiveTechnology
   # ADT Research Console Rework end
 
-# ADT-Tweak-Start
-#- type: technology
-#  id: DualWieldingTechnology
-#  name: research-technology-dual-wielding-technology
-#  icon:
-#    sprite: Clothing/Back/Specific/harmpack.rsi
-#    state: icon
-#  discipline: Arsenal
-#  tier: 2
-#  cost: 10000
-#  recipeUnlocks:
-#  - ClothingBackpackHarmpack
-#  # ADT Research Console Rework start
-#  position: 4,-3
-#  requiredTech:
-#  - BasicShuttleArmament
-#  # ADT Research Console Rework end
-# ADT-Tweak-End
+- type: technology
+  id: DualWieldingTechnology
+  name: research-technology-dual-wielding-technology
+  icon:
+    sprite: Clothing/Back/Specific/harmpack.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - ClothingBackpackHarmpack
+  # ADT Research Console Rework start
+  position: 4,-3
+  requiredTech:
+  - BasicShuttleArmament
+  # ADT Research Console Rework end
 
 # Tier 3
 
