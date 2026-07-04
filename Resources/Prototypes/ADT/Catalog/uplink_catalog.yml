@@ -984,7 +984,7 @@
     stock: 1
 
 - type: listing
-  id: ImplanterCodespeak
+  id: ADTImplanterCodespeak
   name: uplink-code-speak-implanter-name
   description: uplink-code-speak-implanter-desc
   icon: { sprite: Objects/Specific/Medical/implanter.rsi, state: implanter0}
