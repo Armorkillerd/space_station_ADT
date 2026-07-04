@@ -14,6 +14,11 @@
   - ADTMagazineShotgunUranium
 
 - type: latheRecipePack
+  id: ADTChemicalPayload
+  recipes:
+  - ChemicalPayload
+
+- type: latheRecipePack
   id: ADTAttachmentPack
   recipes:
   - ADTAttachmentVerticalGripRecipe

@@ -160,11 +160,12 @@
     selectedMode: FullAuto
     availableModes:
     - FullAuto
-    fireRate: 1
+    fireRate: 0.6
+    projectileSpeed : 20
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: BatteryMechAmmoProvider
-    proto: BulletDisabler
+    proto: ADTMechDisabler
     fireCost: 10
 
 - type: entity

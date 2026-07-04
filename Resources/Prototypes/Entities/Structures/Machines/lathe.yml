@@ -145,6 +145,7 @@
     - PowerCellsStatic
     - ElectronicsStatic
     # ADT-tweak-start
+    - ADTTrigger
     - ADTServiceStaticPack
     - ADTRecorderStaticPack
     - ADTMicsStaticPack
@@ -474,7 +475,10 @@
     - SecurityPracticeStatic
     - SecurityAmmoStatic
     - SecurityWeaponsStatic
-    - ADTMagazineStaticPack # ADT-tweak
+    # ADT-Tweak-Start
+    - ADTChemicalPayload
+    - ADTMagazineStaticPack
+    # ADT-Tweak-End
     dynamicPacks:
     - SalvageSecurityBoards
     - SalvageSecurityWeapons

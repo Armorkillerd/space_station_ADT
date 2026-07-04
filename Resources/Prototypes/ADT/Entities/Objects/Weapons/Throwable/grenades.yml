@@ -8,12 +8,16 @@
   - type: Sprite
     sprite: ADT/Objects/Weapons/Grenades/grenade.rsi
   - type: DeleteOnTrigger
+    keysIn:
+    - timer
   - type: SpawnOnTrigger
     proto: GrenadeFlashEffect
   - type: EmitSoundOnTrigger
     sound: /Audio/ADT/Effects/kega.ogg
   - type: Appearance
   - type: TimerTriggerVisuals
+    keysIn:
+    - timer
     primingSound:
       path: /Audio/Effects/box_deploy.ogg
 
@@ -27,15 +31,38 @@
     sprite: ADT/Objects/Weapons/Grenades/tritiumgrenad/tritiumgrenades.rsi
   - type: EmitSoundOnTrigger
     sound:
-      path: "/Audio/Effects/falling.ogg"
-  - type: DeleteOnTrigger
+      path: "/Audio/Effects/cig_light.ogg"
+  - type: IgnitionSource
+    ignited: false
+    temperature: 1000
+  - type: IgniteOnTrigger
+    keysIn:
+    - timer
+  - type: TimerTrigger
+    delay: 2
   - type: ExplodeOnTrigger
-  - type: Explosive
-    explosionType: Radioactive
-    totalIntensity: 150
-    intensitySlope: 1
-    maxIntensity: 100
+    keysIn:
+    - timer
+  - type: TwoStageTrigger
+    keysIn:
+    - timer
+    triggerDelay: 2
+    components:
+    - type: ExplodeOnTrigger
+      keysIn:
+      - stageTwo
+    - type: Explosive
+      explosionType: Radioactive
+      totalIntensity: 150
+      intensitySlope: 1
+      maxIntensity: 100
+      canCreateVacuum: false
+    - type: DeleteOnTrigger
+      keysIn:
+      - stageTwo
   - type: SpawnOnTrigger
+    keysIn:
+    - timer
     proto: ADTTritiumGasSpawner
   - type: Appearance
   - type: TimerTriggerVisuals

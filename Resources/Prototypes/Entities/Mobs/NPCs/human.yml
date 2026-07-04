@@ -63,6 +63,11 @@
     - type: HTN
       rootTask:
         task: SimpleHumanoidHostileCompound
+    # ADT-Tweak-Start
+    - type: AutoImplant
+      implants:
+        - ADTCriticalAcidifierImplant # Заменил чтобы действительно прекратить оверлутинг.
+    # ADT-Tweak-End
 
 - type: entity
   name: syndicate shuttle pilot
