@@ -410,7 +410,7 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
-  - type: HitscanBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: ADTPulsePistol # ADT-Tweak Pulse -> ADTPulsePistol
     fireCost: 100 # ADT tweak 200 -> 100
   - type: Battery
