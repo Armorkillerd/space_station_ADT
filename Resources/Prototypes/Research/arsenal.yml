@@ -310,6 +310,7 @@
   recipeUnlocks:
   - WeaponTemperatureGun
   - WeaponLaserSvalinn
+  - ADTWeaponLaserSvalinnRifle #ADT-Tweak
   # ADT Research Console Rework start
   position: 5,0
   requiredTech:
