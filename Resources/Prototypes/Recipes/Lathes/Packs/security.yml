@@ -81,7 +81,7 @@
   - PowerCageMedium
   - PowerCageSmall
   - TelescopicShield
-  # - ClothingBackpackHarmpack ADT-Tweak
+  - ClothingBackpackHarmpack
 
 - type: latheRecipePack
   id: SecurityBoards
