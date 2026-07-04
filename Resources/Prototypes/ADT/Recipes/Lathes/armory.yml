@@ -115,7 +115,7 @@
   result: C4
   completetime: 10
   materials:
-    Lead : 300
+    Lead: 300
     Plastic: 400
     Gold: 200
     Steel: 500
