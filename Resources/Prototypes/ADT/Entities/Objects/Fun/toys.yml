@@ -238,11 +238,7 @@
       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
       params:
         pitch: 2
-<<<<<<< Updated upstream
   - type: BatteryAmmoProvider
-=======
-  - type: HitscanBatteryAmmoProvider
->>>>>>> Stashed changes
     proto: RedLaserBlaster
     fireCost: 125
   - type: StaticPrice
