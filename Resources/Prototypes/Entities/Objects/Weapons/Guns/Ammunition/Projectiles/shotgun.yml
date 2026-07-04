@@ -9,7 +9,7 @@
     # ADT-Tweak-Start
     layers:
     - state: slug
-    # ADT-Tweak-Start
+    # ADT-Tweak-End
   - type: Projectile
     damage:
       types:
