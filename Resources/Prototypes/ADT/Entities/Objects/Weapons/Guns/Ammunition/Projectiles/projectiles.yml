@@ -33,7 +33,7 @@
     explosionType: Default
     maxIntensity: 6
     intensitySlope: 3
-    totalIntensity: 120 # about a ~4 tile radius
+    totalIntensity: 80 # about a ~4 tile radius
     canCreateVacuum: false
 
 - type: entity
