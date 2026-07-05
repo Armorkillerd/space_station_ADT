@@ -104,8 +104,6 @@ uplink-pistol-magazine-desc = Пистолетный магазин на 10 па
 uplink-pistol-magazine-c20r-name = Магазин ПП (9х19 мм)
 uplink-pistol-magazine-c20r-desc = Магазин ПП на 30 патронов. Совместим с C-20r.
 
-uplink-magazine-bulldog-pellet-desc = Магазин для дробовика, наполненный восемью дробовыми патронами. Совместим с Бульдогом.
-uplink-magazine-bulldog-slug-desc = Магазин для дробовика, наполненный восемью пулевыми патронами. Совместим с Бульдогом.
 
 uplink-pistol-magazine-caseless-name = Пистолетный магазин (4.7х33 мм безгильзовые)
 uplink-pistol-magazine-caseless-desc = Пистолетный магазин на 10 патронов. Совместим с "Коброй".
