@@ -218,6 +218,7 @@
     staticPacks:
     - ChemistryStatic
     - SurgeryStatic
+    - ADTChemicalPayload # ADT-Tweak
     dynamicPacks:
     - AdvancedTools
     - ScienceEquipment
@@ -570,7 +571,10 @@
     - MedicalClothingStatic
     - EmptyMedkitsStatic
     - SurgeryStatic
-    - ADTMedicalMiscStaticPack # ADT-Tweak
+    # ADT-Tweak-Start
+    - ADTMedicalMiscStaticPack
+    - ADTChemicalPayload
+    # ADT-Tweak-End
     dynamicPacks:
     - Chemistry
     #ADT-Tweak Start

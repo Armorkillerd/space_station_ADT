@@ -56,20 +56,19 @@
   - PKAUpgradeFireRate
   - WeaponTetherGun
   - WeaponGauntletGorilla
-  #ADT-Tweak-Start
-  - WeaponLaserSvalinn
-  - ADTWeaponLaserSvalinnRifle
-  #ADT-Tweak-End
+  - WeaponLaserSvalinn # ADT-Tweak Никаких лазерных пулемётов в нио.
 
 # Only contains parts for making basic modular grenades, no actual explosives
 - type: latheRecipePack
   id: ScienceExplosives
   recipes:
-  - ChemicalPayload
   - FlashPayload
-  - TimerTrigger
-  - SignalTrigger
-  - VoiceTrigger
+  # ADT-Tweak-Start
+  #- ChemicalPayload
+  #- TimerTrigger
+  #- SignalTrigger
+  #- VoiceTrigger
+  # ADT-Tweak-End
 
 - type: latheRecipePack
   id: ScienceBoards
