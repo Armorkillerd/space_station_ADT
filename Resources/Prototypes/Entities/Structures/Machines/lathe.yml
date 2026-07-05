@@ -145,6 +145,7 @@
     - PowerCellsStatic
     - ElectronicsStatic
     # ADT-tweak-start
+    - ADTScienceTrigger
     - ADTServiceStaticPack
     - ADTRecorderStaticPack
     - ADTMicsStaticPack
@@ -217,10 +218,13 @@
     staticPacks:
     - ChemistryStatic
     - SurgeryStatic
+    # ADT-tweak-Start
+    - ADTScienceExplosives
+    # ADT-tweak-End
     dynamicPacks:
     - AdvancedTools
     - ScienceEquipment
-    - ScienceExplosives
+    # - ScienceExplosives # ADT-Tweak
     - ScienceClothing
     - PowerCells
     - ScienceWeapons
@@ -476,6 +480,8 @@
     - SecurityWeaponsStatic
     # ADT-Tweak-Start
     - ADTMagazineStaticPack
+    - ADTScienceTrigger
+    - ADTScienceExplosives
     # ADT-Tweak-End
     dynamicPacks:
     - SalvageSecurityBoards
@@ -570,6 +576,7 @@
     - SurgeryStatic
     # ADT-Tweak-Start
     - ADTMedicalMiscStaticPack
+    - ADTChemicalPayload
     # ADT-Tweak-End
     dynamicPacks:
     - Chemistry

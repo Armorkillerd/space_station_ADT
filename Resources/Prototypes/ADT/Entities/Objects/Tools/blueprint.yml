@@ -37,10 +37,6 @@
   - type: Blueprint
     providedRecipes:
     - SignallerAdvanced
-    - ChemicalPayload
     - FlashPayload
     - ExplosivePayload
     - ADTС4Recipe
-    - SignalTrigger
-    - VoiceTrigger
-    - TimerTrigger
