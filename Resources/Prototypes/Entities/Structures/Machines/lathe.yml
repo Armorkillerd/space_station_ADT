@@ -219,10 +219,10 @@
     - ChemistryStatic
     - SurgeryStatic
     - ADTChemicalPayload # ADT-Tweak
+    - ScienceExplosives # ADT-Tweak перенёс из DynamicPacks
     dynamicPacks:
     - AdvancedTools
     - ScienceEquipment
-    - ScienceExplosives
     - ScienceClothing
     - PowerCells
     - ScienceWeapons
@@ -479,6 +479,7 @@
     # ADT-Tweak-Start
     - ADTChemicalPayload
     - ADTMagazineStaticPack
+    - ScienceExplosives
     # ADT-Tweak-End
     dynamicPacks:
     - SalvageSecurityBoards
