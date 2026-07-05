@@ -62,8 +62,8 @@
 - type: latheRecipePack
   id: ScienceExplosives
   recipes:
-  - FlashPayload
   - ChemicalPayload
+  - FlashPayload
   - TimerTrigger
   - SignalTrigger
   - VoiceTrigger
