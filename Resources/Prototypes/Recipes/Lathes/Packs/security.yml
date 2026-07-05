@@ -88,8 +88,10 @@
   - ShuttleGunSvalinnMachineGunCircuitboard
 
 - type: latheRecipePack
-  parent:
-  - ADTScienceExplosives # ADT-Tweak ScienceExplosives -> ADTScienceExplosives # sec gets everything for modular grenade making that sci does
+  # ADT-Tweak-Start
+  # parent:
+  # - ScienceExplosives # sec gets everything for modular grenade making that sci does
+  # ADT-Tweak-End
   id: SecurityExplosives
   recipes:
   - CableDetStack1
