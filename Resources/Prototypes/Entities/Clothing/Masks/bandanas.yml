@@ -30,7 +30,6 @@
       visible: false
   - type: Tag
     tags:
-    - WhitelistChameleon # ADT-Tweak
     - Bandana
     - ClothMade
     - Recyclable
