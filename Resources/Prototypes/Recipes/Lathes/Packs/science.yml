@@ -23,7 +23,7 @@
   - SignallerAdvanced
   # - DeviceQuantumSpinInverter #ADT_Tweak - временно удалено до решения всех багов предмета
   - DeviceDesynchronizer
-  #- ClothingBackpackHarmpack # ADT-Tweak
+  - ClothingBackpackHarmpack
 
 - type: latheRecipePack
   id: ScienceClothing
@@ -63,12 +63,10 @@
   id: ScienceExplosives
   recipes:
   - FlashPayload
-  # ADT-Tweak-Start
-  #- ChemicalPayload
-  #- TimerTrigger
-  #- SignalTrigger
-  #- VoiceTrigger
-  # ADT-Tweak-End
+  - ChemicalPayload
+  - TimerTrigger
+  - SignalTrigger
+  - VoiceTrigger
 
 - type: latheRecipePack
   id: ScienceBoards

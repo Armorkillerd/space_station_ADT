@@ -125,10 +125,3 @@
   id: ADTBeltManipulatorPack
   recipes:
   - ADTClothingBeltManipulator
-
-- type: latheRecipePack
-  id: ADTTrigger
-  recipes:
-  - SignalTrigger
-  - VoiceTrigger
-  - TimerTrigger

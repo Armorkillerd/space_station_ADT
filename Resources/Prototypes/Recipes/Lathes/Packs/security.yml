@@ -77,7 +77,7 @@
   - PowerCageMedium
   - PowerCageSmall
   - TelescopicShield
-  #- ClothingBackpackHarmpack # ADT-Tweak
+  - ClothingBackpackHarmpack
 
 - type: latheRecipePack
   id: SecurityBoards
@@ -144,10 +144,10 @@
   - WeaponTemperatureGun
   - ADTWeaponIonRifle  #ADT tweak
   - ADTWeaponIonCarbine #ADT tweak
-  #ADT-Tweak-Start исправил ошибку.
+  # ADT-Tweak-Start исправил ошибку.
   - WeaponLaserSvalinn
   - ADTWeaponLaserSvalinnRifle
-  #ADT-Tweak-End
+  # ADT-Tweak-End
 
 - type: latheRecipePack
   id: SecurityDisablers

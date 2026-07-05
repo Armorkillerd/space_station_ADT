@@ -41,3 +41,6 @@
     - FlashPayload
     - ExplosivePayload
     - ADTС4Recipe
+    - SignalTrigger
+    - VoiceTrigger
+    - TimerTrigger

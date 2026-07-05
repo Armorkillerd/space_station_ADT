@@ -94,7 +94,7 @@
 - type: latheRecipePack
   id: Chemistry
   recipes:
-  # - ChemicalPayload # ADT-Tweak
+  - ChemicalPayload
   - BluespaceBeaker
 ##- CryostasisBeaker
 ##- SyringeCryostasis
