@@ -111,3 +111,14 @@
   materials:
     Lead : 300 #ADT-BFUU-Tweak
     Plastic: 200
+
+- type: latheRecipe
+  id: ADTС4Recipe
+  result: C4
+  completetime: 10
+  materials:
+    Lead: 300
+    Plastic: 400
+    Gold: 200
+    Steel: 500
+    Silver: 200
