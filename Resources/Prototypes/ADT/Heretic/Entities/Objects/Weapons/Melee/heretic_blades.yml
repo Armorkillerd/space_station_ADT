@@ -20,7 +20,7 @@
   - type: Item
     size: Normal
     sprite: ADT/Heretic/Blades/blade_blade-inhand.rsi
-  # - type: ItemToggle # Странно зачем оно вобще нужно?
+  - type: ItemToggle
   - type: RandomTeleport
     radius:
       min: 10
