@@ -21,8 +21,8 @@
   - type: GunWieldBonus
     minAngle: -23
     maxAngle: -44
-  - type: RunAndGunSpreadModifier
-    modifier: 0.1
+#- type: RunAndGunSpreadModifier
+#  modifier: 0.1
   - type: MeleeWeapon
     resetOnHandSelected: false
     attackRate: 0.65
